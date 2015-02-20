@@ -3,8 +3,8 @@ using System.Collections;
 
 public class MovementController : MonoBehaviour
 {
-
-    Touch touch1;
+    int joyStickId = -1;
+    //Touch touch1;
     PlayerMovement playerMovement;
     float cooldown = 0;
     float cooldowndelay = 1;
@@ -17,7 +17,8 @@ public class MovementController : MonoBehaviour
     {
 
         //stores the new touch into a variable so you can check the position in the update
-       touch1 = Input.touches[Input.touchCount - 1];
+        joyStickId = Input.touches[Input.touchCount - 1].fingerId;
+       //touch1 = Input.touches[Input.touchCount - 1];
        Debug.Log("click");
     }
 
@@ -30,16 +31,27 @@ public class MovementController : MonoBehaviour
             //loop trough each touch to look for the touch we stored in click()  
             foreach (Touch touch in Input.touches)
             {
-                if (touch.fingerId == touch1.fingerId)
+                if (touch.fingerId == joyStickId)
                 {
                     //Debug.Log("result if thisx - mousex" + (Input.mousePosition.x - transform.position.x) as string);
-                    playerMovement.horizotalMovement((Input.mousePosition.x - transform.position.x));
+                    playerMovement.horizotalMovement((touch.position.x - transform.position.x));
+                    Debug.Log(touch.fingerId);
+                    Debug.Log(touch.position);
+                    
                 }
-                if (touch.fingerId != touch1.fingerId && Time.time > cooldown)
+                if (touch.fingerId != joyStickId && Time.time > cooldown)
                 {
+                    Debug.Log(touch.fingerId);
+                    Debug.Log(touch.position);
                     cooldown = Time.time + cooldowndelay;
                     playerMovement.jump();
 
+                }
+
+                if (touch.fingerId == joyStickId && touch.phase == TouchPhase.Ended)
+                {
+                    joyStickId = -1;
+                    Debug.Log("heb losgelaten");
                 }
             }
         }
