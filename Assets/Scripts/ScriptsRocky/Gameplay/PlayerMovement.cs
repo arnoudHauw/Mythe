@@ -5,10 +5,10 @@ public class PlayerMovement : MonoBehaviour {
 
     float speedcap = 25;
     float jumpForce = 200;
+
     public void horizotalMovement(float speed) 
     {
-
-
+        //checks if the speed is over the maximum and when it is sets it to the maximum speed
         if (speed > speedcap)
         {
             speed = speedcap;
@@ -17,13 +17,12 @@ public class PlayerMovement : MonoBehaviour {
         {
             speed = -speedcap;
         }
-        //Debug.Log("speed = " + speed as string);
-        //rigidbody2D.AddForce(new Vector2(speed/2, 0));
+        //applies movement
         transform.Translate(speed * Time.deltaTime /2,0,0);
     }
+
     public void jump() 
     {
-        //Debug.Log("jump");
         rigidbody2D.AddForce(new Vector2(0,jumpForce));
     }
 }

@@ -39,6 +39,8 @@ public class MovementController : MonoBehaviour
                     Debug.Log(touch.position);
                     
                 }
+
+                //checks if the touch is nog the joystick touch and fires the jump function
                 if (touch.fingerId != joyStickId && Time.time > cooldown)
                 {
                     Debug.Log(touch.fingerId);
@@ -48,10 +50,10 @@ public class MovementController : MonoBehaviour
 
                 }
 
+                //check of the joystick touch has ended and set the joystick id back to its basic value
                 if (touch.fingerId == joyStickId && touch.phase == TouchPhase.Ended)
                 {
                     joyStickId = -1;
-                    Debug.Log("heb losgelaten");
                 }
             }
         }
