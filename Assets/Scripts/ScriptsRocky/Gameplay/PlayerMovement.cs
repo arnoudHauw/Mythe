@@ -13,10 +13,11 @@ public class PlayerMovement : MonoBehaviour {
         {
             speed = speedcap;
         }
-        if (speed < -speedcap)
+        else if (speed < -speedcap)
         {
             speed = -speedcap;
         }
+
         //applies movement
         transform.Translate(speed * Time.deltaTime /2,0,0);
     }

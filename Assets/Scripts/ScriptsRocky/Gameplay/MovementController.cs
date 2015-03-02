@@ -40,7 +40,7 @@ public class MovementController : MonoBehaviour
                     
                 }
 
-                //checks if the touch is nog the joystick touch and fires the jump function
+                //checks if the touch is not the joystick touch and fires the jump function
                 if (touch.fingerId != joyStickId && Time.time > cooldown)
                 {
                     Debug.Log(touch.fingerId);
