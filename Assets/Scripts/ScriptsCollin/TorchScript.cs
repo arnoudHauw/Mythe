@@ -24,7 +24,6 @@ public class TorchScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("Collision detected");
         if(other.gameObject.tag == "Destroyable")
         {
             torchHealth -= 2.5F;
