@@ -11,7 +11,5 @@ public class BackGroundMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.Translate(Vector3.down * (2 * Time.deltaTime));
-
-
 	}
 }
