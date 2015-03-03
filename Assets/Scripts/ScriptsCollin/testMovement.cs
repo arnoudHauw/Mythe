@@ -15,8 +15,6 @@ public class testMovement : MonoBehaviour
     {
         moveDirection = new Vector2(Input.GetAxis("Horizontal") * moveSpeed + (mainCamera.transform.rotation.z * slideMultiplier), this.rigidbody2D.velocity.y);
 
-        Debug.Log(this.rigidbody2D.velocity.y);
-
         this.rigidbody2D.velocity = moveDirection;
     }
 
