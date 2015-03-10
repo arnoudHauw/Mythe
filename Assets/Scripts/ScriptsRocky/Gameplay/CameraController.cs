@@ -9,8 +9,6 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Input.acceleration.x);
-
         if (Input.acceleration.x > 0.15f)
         {
             turnDir = turnSpeed;

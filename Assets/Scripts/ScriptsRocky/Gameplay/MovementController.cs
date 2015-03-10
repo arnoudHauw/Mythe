@@ -31,30 +31,29 @@ public class MovementController : MonoBehaviour
             //loop trough each touch to look for the touch we stored in click()  
             foreach (Touch touch in Input.touches)
             {
+                //checks if the touch is not the joystick touch and fires the jump function
+                if (touch.fingerId != joyStickId && Time.time > cooldown)
+                {
+                    cooldown = Time.time + cooldowndelay;
+                    playerMovement.jump();
+                }
+
                 if (touch.fingerId == joyStickId)
                 {
                     //Debug.Log("result if thisx - mousex" + (Input.mousePosition.x - transform.position.x) as string);
                     playerMovement.horizotalMovement((touch.position.x - transform.position.x));
-                    Debug.Log(touch.fingerId);
-                    Debug.Log(touch.position);
+
+                    //check of the joystick touch has ended and set the joystick id back to its basic value
+                    if (touch.phase == TouchPhase.Ended)
+                    {
+                        joyStickId = -1;
+                    }
                     
                 }
 
-                //checks if the touch is not the joystick touch and fires the jump function
-                if (touch.fingerId != joyStickId && Time.time > cooldown)
-                {
-                    Debug.Log(touch.fingerId);
-                    Debug.Log(touch.position);
-                    cooldown = Time.time + cooldowndelay;
-                    playerMovement.jump();
+                
 
-                }
-
-                //check of the joystick touch has ended and set the joystick id back to its basic value
-                if (touch.fingerId == joyStickId && touch.phase == TouchPhase.Ended)
-                {
-                    joyStickId = -1;
-                }
+                
             }
         }
     }

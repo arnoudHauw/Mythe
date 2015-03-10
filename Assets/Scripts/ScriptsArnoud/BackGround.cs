@@ -15,9 +15,6 @@ public class BackGround : MonoBehaviour
         
         gameObject.GetComponent<BackGroundSpawn>().backgroundType = BackgroundType.Stone;
 
-
-       
-
-        //_type = BackgroundType.Forest;
+        Debug.Log(_type);
     }
 }

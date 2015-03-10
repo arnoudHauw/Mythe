@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
 
-    float speedcap = 25;
+    public float speedcap = 25;
     float jumpForce = 200;
 
     public void horizotalMovement(float speed) 

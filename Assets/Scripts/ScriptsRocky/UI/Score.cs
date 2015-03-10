@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
 
+    const string scoreString = "Score ";
     public Text score;
     int _score = 0;
     // Use this for initialization
@@ -19,9 +20,9 @@ public class Score : MonoBehaviour
         changeScore(1);
     }
 
-    void changeScore(int change)
+    public void changeScore(int change)
     {
         _score += change;
-        score.text = "Score " + _score.ToString();
+        score.text = scoreString + _score.ToString();
     }
 }
