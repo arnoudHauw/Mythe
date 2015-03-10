@@ -20,11 +20,11 @@ public class TorchScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        lightPercentage = playerLight.light.spotAngle / torchHealth;
+        lightPercentage = playerLight.GetComponent<Light>().spotAngle / torchHealth;
         Debug.Log(lightPercentage);
-        maxTorchSize = playerLight.light.spotAngle;
+        maxTorchSize = playerLight.GetComponent<Light>().spotAngle;
 
-        playerLight.light.spotAngle += 1;
+        playerLight.GetComponent<Light>().spotAngle += 1;
     }
 
     // Update is called once per frame
@@ -36,18 +36,18 @@ public class TorchScript : MonoBehaviour
             Destroy(this.gameObject);
         }
         
-        if(playerLight.light.spotAngle > maxTorchSize)
+        if(playerLight.GetComponent<Light>().spotAngle > maxTorchSize)
         {
             torchSwapVal = -torchDamnSpeed;
         }
-        else if (playerLight.light.spotAngle < maxTorchSize - torchSwapRange)
+        else if (playerLight.GetComponent<Light>().spotAngle < maxTorchSize - torchSwapRange)
         {
             torchSwapVal = torchDamnSpeed;
         }
 
         Debug.Log(torchDamnSpeed);
 
-        playerLight.light.spotAngle += torchSwapVal;
+        playerLight.GetComponent<Light>().spotAngle += torchSwapVal;
 
         maxTorchSize = lightPercentage * torchHealth;
 
