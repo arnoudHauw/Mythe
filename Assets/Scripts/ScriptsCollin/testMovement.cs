@@ -13,9 +13,9 @@ public class testMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveDirection = new Vector2(Input.GetAxis("Horizontal") * moveSpeed + (mainCamera.transform.rotation.z * slideMultiplier), this.rigidbody2D.velocity.y);
+        moveDirection = new Vector2(Input.GetAxis("Horizontal") * moveSpeed + (mainCamera.transform.rotation.z * slideMultiplier), this.GetComponent<Rigidbody2D>().velocity.y);
 
-        this.rigidbody2D.velocity = moveDirection;
+        this.GetComponent<Rigidbody2D>().velocity = moveDirection;
     }
 
     void OnCollisionStay2D(Collision2D coll)
@@ -27,7 +27,7 @@ public class testMovement : MonoBehaviour
             if(Input.GetButton("Jump"))
             {
                 moveDirection.y = 5;
-                this.rigidbody2D.velocity = moveDirection;
+                this.GetComponent<Rigidbody2D>().velocity = moveDirection;
             }
         }
     }

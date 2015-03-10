@@ -4,20 +4,22 @@ using System.Collections.Generic;
 
 public enum BackgroundType
 {
+    Snow,
     Stone,
     Forest
 }
 public class BackGroundSpawn : MonoBehaviour
 {
 
-    private float _spawnTime = 3;
-    private float _spawnDelay = 1;
+    private float _spawnTime = 10.0f;
+    private float _spawnDelay = 1.0f;
 
     public Transform spawn;
 
     public Vector3 spawnPosition;
     public GameObject[] stoneBackgrounds;
     public GameObject[] forestBackgrounds;
+    public GameObject[] SnowBackgrounds;
 
 
 
@@ -38,7 +40,8 @@ public class BackGroundSpawn : MonoBehaviour
 
     void Start()
     {
-        backgroundType = BackgroundType.Forest;
+        backgroundType = BackgroundType.Snow;
+        map.Add(BackgroundType.Snow, SnowBackgrounds);
         map.Add(BackgroundType.Stone, stoneBackgrounds);
         map.Add(BackgroundType.Forest, forestBackgrounds);
 

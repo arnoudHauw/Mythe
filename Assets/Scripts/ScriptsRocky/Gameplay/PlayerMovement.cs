@@ -24,6 +24,6 @@ public class PlayerMovement : MonoBehaviour {
     public void jump() 
     {
         //Debug.Log("jump");
-        rigidbody2D.AddForce(new Vector2(0,jumpForce));
+        GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpForce));
     }
 }

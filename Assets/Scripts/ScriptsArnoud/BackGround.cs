@@ -6,7 +6,8 @@ public class BackGround : MonoBehaviour
     public BackgroundType _type;
     void Start()
     {
-        StartCoroutine(NextBio(5.0F));
+        Debug.Log(Application.unityVersion);
+        StartCoroutine(NextBio(50.0F));
     }
     IEnumerator NextBio(float _bioTime)
     {
