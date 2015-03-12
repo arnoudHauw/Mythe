@@ -12,7 +12,7 @@ public class BackGroundSpawn : MonoBehaviour
 {
 
     private float _spawnTime = 11.0f;
-    private float _spawnDelay = 0.5f;
+    private float _spawnDelay = 2.5f;
 
     public Transform spawn;
 

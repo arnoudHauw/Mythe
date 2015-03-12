@@ -33,7 +33,8 @@ public class TorchScript : MonoBehaviour
         torchHealth -= Time.deltaTime;
         if(torchHealth < 0)
         {
-            Destroy(this.gameObject);
+            Application.LoadLevel(0);
+            //Destroy(this.gameObject);
         }
         
         if(playerLight.GetComponent<Light>().spotAngle > maxTorchSize)
