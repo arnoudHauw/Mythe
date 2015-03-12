@@ -7,7 +7,7 @@ public class Score : MonoBehaviour
 
     const string scoreString = "Score ";
     public Text score;
-    int _score = 0;
+    public int scoreValue = 0;
     // Use this for initialization
     void Start()
     {
@@ -22,7 +22,7 @@ public class Score : MonoBehaviour
 
     public void changeScore(int change)
     {
-        _score += change;
-        score.text = scoreString + _score.ToString();
+        scoreValue += change;
+        score.text = scoreString + scoreValue.ToString();
     }
 }
