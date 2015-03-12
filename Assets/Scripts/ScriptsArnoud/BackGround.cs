@@ -7,7 +7,7 @@ public class BackGround : MonoBehaviour
     void Start()
     {
         Debug.Log(Application.unityVersion);
-        StartCoroutine(NextBio(50.0F));
+        StartCoroutine(NextBio(1000.0F));
     }
     IEnumerator NextBio(float _bioTime)
     {

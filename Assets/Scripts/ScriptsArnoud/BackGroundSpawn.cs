@@ -11,8 +11,8 @@ public enum BackgroundType
 public class BackGroundSpawn : MonoBehaviour
 {
 
-    private float _spawnTime = 10.0f;
-    private float _spawnDelay = 1.0f;
+    private float _spawnTime = 11.0f;
+    private float _spawnDelay = 0.5f;
 
     public Transform spawn;
 
