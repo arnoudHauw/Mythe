@@ -33,7 +33,8 @@ public class TorchScript : MonoBehaviour
         torchHealth -= Time.deltaTime;
         if(torchHealth < 0)
         {
-            Destroy(this.gameObject);
+            Application.LoadLevel(0);
+            //Destroy(this.gameObject);
         }
         
         if(playerLight.GetComponent<Light>().spotAngle > maxTorchSize)
@@ -57,12 +58,12 @@ public class TorchScript : MonoBehaviour
     {
         if(other.gameObject.tag == "Destroyable")
         {
-            torchHealth -= 2.5F;
+            torchHealth -= 10F;
             Destroy(other.gameObject);
         }
         else if(other.gameObject.tag == "Barrel")
         {
-            torchHealth = 20;
+            torchHealth = 100;
             Debug.Log("Health Refilled");
         }
 

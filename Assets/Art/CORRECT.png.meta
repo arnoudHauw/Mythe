@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: b38675b6bc41a054a93caee21555cf90
+timeCreated: 1426147526
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CORRECT_0
+    21300002: CORRECT_1
+    21300004: CORRECT_2
+    21300006: CORRECT_3
+    21300008: CORRECT_4
+    21300010: CORRECT_5
+    21300012: CORRECT_6
+    21300014: CORRECT_7
+    21300016: CORRECT_8
+    21300018: CORRECT_9
+    21300020: CORRECT_10
+    21300022: CORRECT_11
+    21300024: CORRECT_12
+    21300026: CORRECT_13
+    21300028: CORRECT_14
+    21300030: CORRECT_15
+    21300032: CORRECT_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CORRECT_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 422
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 422
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 422
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 332
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 332
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 332
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 242
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 242
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_11
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 242
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 152
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 152
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 152
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CORRECT_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 57
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
