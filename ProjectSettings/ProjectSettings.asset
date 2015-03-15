@@ -80,7 +80,7 @@ PlayerSettings:
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
-  productGUID: 8a7224eae4f13d7448661f8261b66c45
+  productGUID: 4b6b276a7c6b33f46a8c30a8b65fc332
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
@@ -116,7 +116,7 @@ PlayerSettings:
   iOSLaunchScreenLandscape: {fileID: 0}
   iOSLaunchScreenBackgroundColor:
     serializedVersion: 2
-    rgba: 78
+    rgba: 1633774437
   iOSLaunchScreenFillPct: 1
   iOSLaunchScreenCustomXibPath: 
   AndroidTargetDevice: 0
@@ -217,11 +217,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-<<<<<<< HEAD
-  psp2PackagePassword: F69AzBlax3CF3EDNhm3soLBPh71Yexui
-=======
   psp2PackagePassword: oZYFYZ5B6kzMCk8R6BEuZMrF6cI6NX8D
->>>>>>> 8faa64f96cd93dbf71a8968db02f1aca71683cce
   psp2KeystoneFile: 
   psp2DRMType: 0
   psp2StorageType: 0
