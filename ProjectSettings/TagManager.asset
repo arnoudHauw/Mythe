@@ -7,7 +7,9 @@ TagManager:
   - Barrel
   - Ground
   - Destroyable
+  - Health
   - Score
+  - ScoreBox
   layers:
   - Default
   - TransparentFX

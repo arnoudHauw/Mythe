@@ -1,0 +1,1782 @@
+fileFormatVersion: 2
+guid: f4d7cb5fcbb69aa438e85c338b478023
+timeCreated: 1426683205
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: flame_bar_2_0
+    21300002: flame_bar_2_1
+    21300004: flame_bar_2_2
+    21300006: flame_bar_2_3
+    21300008: flame_bar_2_4
+    21300010: flame_bar_2_5
+    21300012: flame_bar_2_6
+    21300014: flame_bar_2_7
+    21300016: flame_bar_2_8
+    21300018: flame_bar_2_9
+    21300020: flame_bar_2_10
+    21300022: flame_bar_2_11
+    21300024: flame_bar_2_12
+    21300026: flame_bar_2_13
+    21300028: flame_bar_2_14
+    21300030: flame_bar_2_15
+    21300032: flame_bar_2_16
+    21300034: flame_bar_2_17
+    21300036: flame_bar_2_18
+    21300038: flame_bar_2_19
+    21300040: flame_bar_2_20
+    21300042: flame_bar_2_21
+    21300044: flame_bar_2_22
+    21300046: flame_bar_2_23
+    21300048: flame_bar_2_24
+    21300050: flame_bar_2_25
+    21300052: flame_bar_2_26
+    21300054: flame_bar_2_27
+    21300056: flame_bar_2_28
+    21300058: flame_bar_2_29
+    21300060: flame_bar_2_30
+    21300062: flame_bar_2_31
+    21300064: flame_bar_2_32
+    21300066: flame_bar_2_33
+    21300068: flame_bar_2_34
+    21300070: flame_bar_2_35
+    21300072: flame_bar_2_36
+    21300074: flame_bar_2_37
+    21300076: flame_bar_2_38
+    21300078: flame_bar_2_39
+    21300080: flame_bar_2_40
+    21300082: flame_bar_2_41
+    21300084: flame_bar_2_42
+    21300086: flame_bar_2_43
+    21300088: flame_bar_2_44
+    21300090: flame_bar_2_45
+    21300092: flame_bar_2_46
+    21300094: flame_bar_2_47
+    21300096: flame_bar_2_48
+    21300098: flame_bar_2_49
+    21300100: flame_bar_2_50
+    21300102: flame_bar_2_51
+    21300104: flame_bar_2_52
+    21300106: flame_bar_2_53
+    21300108: flame_bar_2_54
+    21300110: flame_bar_2_55
+    21300112: flame_bar_2_56
+    21300114: flame_bar_2_57
+    21300116: flame_bar_2_58
+    21300118: flame_bar_2_59
+    21300120: flame_bar_2_60
+    21300122: flame_bar_2_61
+    21300124: flame_bar_2_62
+    21300126: flame_bar_2_63
+    21300128: flame_bar_2_64
+    21300130: flame_bar_2_65
+    21300132: flame_bar_2_66
+    21300134: flame_bar_2_67
+    21300136: flame_bar_2_68
+    21300138: flame_bar_2_69
+    21300140: flame_bar_2_70
+    21300142: flame_bar_2_71
+    21300144: flame_bar_2_72
+    21300146: flame_bar_2_73
+    21300148: flame_bar_2_74
+    21300150: flame_bar_2_75
+    21300152: flame_bar_2_76
+    21300154: flame_bar_2_77
+    21300156: flame_bar_2_78
+    21300158: flame_bar_2_79
+    21300160: flame_bar_2_80
+    21300162: flame_bar_2_81
+    21300164: flame_bar_2_82
+    21300166: flame_bar_2_83
+    21300168: flame_bar_2_84
+    21300170: flame_bar_2_85
+    21300172: flame_bar_2_86
+    21300174: flame_bar_2_87
+    21300176: flame_bar_2_88
+    21300178: flame_bar_2_89
+    21300180: flame_bar_2_90
+    21300182: flame_bar_2_91
+    21300184: flame_bar_2_92
+    21300186: flame_bar_2_93
+    21300188: flame_bar_2_94
+    21300190: flame_bar_2_95
+    21300192: flame_bar_2_96
+    21300194: flame_bar_2_97
+    21300196: flame_bar_2_98
+    21300198: flame_bar_2_99
+    21300200: flame_bar_2_100
+    21300202: flame_bar_2_101
+    21300204: flame_bar_2_102
+    21300206: flame_bar_2_103
+    21300208: flame_bar_2_104
+    21300210: flame_bar_2_105
+    21300212: flame_bar_2_106
+    21300214: flame_bar_2_107
+    21300216: flame_bar_2_108
+    21300218: flame_bar_2_109
+    21300220: flame_bar_2_110
+    21300222: flame_bar_2_111
+    21300224: flame_bar_2_112
+    21300226: flame_bar_2_113
+    21300228: flame_bar_2_114
+    21300230: flame_bar_2_115
+    21300232: flame_bar_2_116
+    21300234: flame_bar_2_117
+    21300236: flame_bar_2_118
+    21300238: flame_bar_2_119
+    21300240: flame_bar_2_120
+    21300242: flame_bar_2_121
+    21300244: flame_bar_2_122
+    21300246: flame_bar_2_123
+    21300248: flame_bar_2_124
+    21300250: flame_bar_2_125
+    21300252: flame_bar_2_126
+    21300254: flame_bar_2_127
+    21300256: flame_bar_2_128
+    21300258: flame_bar_2_129
+    21300260: flame_bar_2_130
+    21300262: flame_bar_2_131
+    21300264: flame_bar_2_132
+    21300266: flame_bar_2_133
+    21300268: flame_bar_2_134
+    21300270: flame_bar_2_135
+    21300272: flame_bar_2_136
+    21300274: flame_bar_2_137
+    21300276: flame_bar_2_138
+    21300278: flame_bar_2_139
+    21300280: flame_bar_2_140
+    21300282: flame_bar_2_141
+    21300284: flame_bar_2_142
+    21300286: flame_bar_2_143
+    21300288: flame_bar_2_144
+    21300290: flame_bar_2_145
+    21300292: flame_bar_2_146
+    21300294: flame_bar_2_147
+    21300296: flame_bar_2_148
+    21300298: flame_bar_2_149
+    21300300: flame_bar_2_150
+    21300302: flame_bar_2_151
+    21300304: flame_bar_2_152
+    21300306: flame_bar_2_153
+    21300308: flame_bar_2_154
+    21300310: flame_bar_2_155
+    21300312: flame_bar_2_156
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: flame_bar_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3983
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3983
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_2
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3983
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3983
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_4
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3983
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_5
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3983
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3870
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3870
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_8
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3870
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_9
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3870
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_10
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3870
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_11
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3870
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3757
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3757
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_14
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3757
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_15
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3757
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_16
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3757
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_17
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3757
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3644
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_19
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3644
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_20
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3644
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_21
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3644
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_22
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3644
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_23
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3644
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3531
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3531
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_26
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3531
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_27
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3531
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_28
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3531
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_29
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3531
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3418
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_31
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3418
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_32
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3418
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_33
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3418
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_34
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3418
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_35
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3418
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3305
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_37
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3305
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_38
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3305
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_39
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3305
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_40
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3305
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_41
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3305
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3192
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_43
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3192
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_44
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3192
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_45
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3192
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_46
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3192
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_47
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3192
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3079
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_49
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3079
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_50
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3079
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_51
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 3079
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_52
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 3079
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_53
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 3079
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2966
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_55
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2966
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_56
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2966
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_57
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2966
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_58
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2966
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_59
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2966
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2853
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_61
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2853
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_62
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2853
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_63
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2853
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_64
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2853
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_65
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2853
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2740
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_67
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2740
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_68
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2740
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_69
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2740
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_70
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2740
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_71
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2740
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2627
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_73
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2627
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_74
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2627
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_75
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2627
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_76
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2627
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_77
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2627
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2514
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_79
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2514
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_80
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2514
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_81
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2514
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_82
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2514
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_83
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2514
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2401
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_85
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2401
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_86
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2401
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_87
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2401
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_88
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2401
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_89
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2401
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2288
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_91
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2288
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_92
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2288
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_93
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2288
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_94
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2288
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_95
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2288
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2175
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_97
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2175
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_98
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2175
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_99
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2175
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_100
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2175
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_101
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2175
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2062
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_103
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2062
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_104
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2062
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_105
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2062
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_106
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 2062
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_107
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2062
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1949
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_109
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1949
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_110
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1949
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_111
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1949
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_112
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1949
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_113
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1949
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1836
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_115
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1836
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_116
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1836
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_117
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1836
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_118
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1836
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_119
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1836
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1723
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_121
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1723
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_122
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1723
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_123
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1723
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_124
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1723
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_125
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1723
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1610
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_127
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1610
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_128
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1610
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_129
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1610
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_130
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1610
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_131
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1610
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1497
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_133
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1497
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_134
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1497
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_135
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1497
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_136
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1497
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_137
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1497
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1384
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_139
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1384
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_140
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1384
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_141
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1384
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_142
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1384
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_143
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1384
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1271
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_145
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1271
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_146
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1271
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_147
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1271
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_148
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1271
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_149
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1271
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1158
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_151
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1158
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_152
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1158
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_153
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1158
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_154
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1158
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_155
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1158
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flame_bar_2_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1045
+        width: 333
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
