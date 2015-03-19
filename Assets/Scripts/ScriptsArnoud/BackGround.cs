@@ -6,8 +6,7 @@ public class BackGround : MonoBehaviour
     public BackgroundType _type;
     void Start()
     {
-        Debug.Log(Application.unityVersion);
-        StartCoroutine(NextBio(1000.0F));
+        StartCoroutine(NextBio(120.0F));
     }
     IEnumerator NextBio(float _bioTime)
     {
@@ -15,7 +14,5 @@ public class BackGround : MonoBehaviour
         yield return new WaitForSeconds(_bioTime);
         
         gameObject.GetComponent<BackGroundSpawn>().backgroundType = BackgroundType.Stone;
-
-        Debug.Log(_type);
     }
 }

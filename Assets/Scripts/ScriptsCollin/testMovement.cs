@@ -6,14 +6,29 @@ public class testMovement : MonoBehaviour
     float moveSpeed = 7;
 
     public float slideMultiplier = 50;
-
-    Vector2 moveDirection;
-    //  + (mainCamera.transform.rotation.z * slideMultiplier) 
+    
+    public Vector2 moveDirection;
+    //  + (mainCamera.transform.rotation.z * slideMultiplier)
     public GameObject mainCamera;
+    public GameObject Char;
     // Update is called once per frame
+
+    private const string ISWALKING = "IsWalking";
+    private const string ISJUMPING = "IsJumping";
+
     void Update()
     {
         moveDirection = new Vector2(Input.GetAxis("Horizontal") * moveSpeed + (mainCamera.transform.rotation.z * slideMultiplier), this.GetComponent<Rigidbody2D>().velocity.y);
+
+        if (moveDirection.y <= 0.5f)
+        {
+            Char.GetComponent<Animator>().SetBool(ISWALKING, true);
+            Char.GetComponent<Animator>().SetBool(ISJUMPING, false);
+        }
+        else
+        {
+            Char.GetComponent<Animator>().SetBool(ISWALKING, false);
+        }
 
         this.GetComponent<Rigidbody2D>().velocity = moveDirection;
     }
@@ -23,6 +38,7 @@ public class testMovement : MonoBehaviour
         
         if(coll.gameObject.tag == "Ground" || coll.gameObject.tag == "Destroyable")
         {
+            Char.GetComponent<Animator>().SetBool(ISJUMPING, true);
             
             if(Input.GetButton("Jump"))
             {
