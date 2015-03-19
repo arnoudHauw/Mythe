@@ -16,7 +16,6 @@ public class GainPoints : MonoBehaviour {
         if(other.tag == "ScoreBox")
         {
             scoreScript.changeScore(other.GetComponent<PointsScript>().score);
-            Debug.Log("should change score");
         }
     }
 }

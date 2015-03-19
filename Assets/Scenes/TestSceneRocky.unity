@@ -224,6 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13431d58152d48c47820358146a42476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
 --- !u!114 &326184601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,6 +266,7 @@ GameObject:
   - 81: {fileID: 592920037}
   - 114: {fileID: 592920042}
   - 114: {fileID: 592920043}
+  - 114: {fileID: 592920044}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -357,6 +359,17 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 35d503453ac3e2c4399e4b5a270e07b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &592920044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 592920036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db8bd858a131124a9e6a76a53cd6b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &854474405
@@ -937,6 +950,7 @@ GameObject:
   - 61: {fileID: 1646588303}
   - 114: {fileID: 1646588307}
   - 114: {fileID: 1646588308}
+  - 114: {fileID: 1646588309}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -987,7 +1001,7 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1646588300}
   m_Enabled: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 388071634188ee640b2004e6070bba40, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
@@ -1053,6 +1067,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cc82f3b60307804da82d74835d33ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1646588309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1646588300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fb10b12670110448e4197aab8ce012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slideMultiplier: 50
+  mainCamera: {fileID: 592920036}
 --- !u!1 &2014684412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,7 +1178,7 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2034060202}
   m_Enabled: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 388071634188ee640b2004e6070bba40, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}

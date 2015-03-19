@@ -6,10 +6,12 @@ public class MovementController : MonoBehaviour
     int joyStickId = -1;
     //Touch touch1;
     PlayerMovement playerMovement;
+    public GameObject mainCamera;
     float cooldown = 0;
     float cooldowndelay = 1;
     void Start() 
     {
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
     }
 
@@ -41,7 +43,11 @@ public class MovementController : MonoBehaviour
                 if (touch.fingerId == joyStickId)
                 {
                     //Debug.Log("result if thisx - mousex" + (Input.mousePosition.x - transform.position.x) as string);
-                    playerMovement.horizotalMovement((touch.position.x - transform.position.x));
+                    if (mainCamera.transform.rotation.z < 0.13f && mainCamera.transform.rotation.z > -0.13f)
+                    {
+                        Debug.Log(mainCamera.transform.rotation.z);
+                        playerMovement.horizotalMovement((touch.position.x - transform.position.x));
+                    }
 
                     //check of the joystick touch has ended and set the joystick id back to its basic value
                     if (touch.phase == TouchPhase.Ended)
