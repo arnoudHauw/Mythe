@@ -11,8 +11,8 @@ public enum BackgroundType
 public class BackGroundSpawn : MonoBehaviour
 {
 
-    private float _spawnTime = 11.0f;
-    private float _spawnDelay = 2.5f;
+    private float _spawnTime = 14.0f;
+    private float _spawnDelay = 6.0f;
 
     public Transform spawn;
 
@@ -53,7 +53,7 @@ public class BackGroundSpawn : MonoBehaviour
 
     void Spawn()
     {
-        Vector3 disSpawn = new Vector3(0, 0, 0);
+        Vector3 disSpawn = new Vector3(3, 0, 0);
         Vector3 spawnPos = spawnPosition + disSpawn;
 
         int objLenght = map[backgroundType].Length;

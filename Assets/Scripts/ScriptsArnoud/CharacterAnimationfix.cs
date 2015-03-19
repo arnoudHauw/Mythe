@@ -1,0 +1,21 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class CharacterAnimationfix : MonoBehaviour {
+
+    Vector2 MoveDirection;
+    
+	void Update () 
+    {
+        MoveDirection = gameObject.GetComponent<testMovement>().moveDirection;
+        
+        if (MoveDirection.x <= 0)
+        {
+            this.transform.localScale = new Vector2(-1, 1);
+        }
+        else if (MoveDirection.x >= 0)
+        {
+            this.transform.localScale = new Vector2(1, 1);
+        }
+	}
+}
