@@ -6,7 +6,7 @@ public class Health : MonoBehaviour
 {
     const string healthString = "Health : ";
     public Text health;
-    float healthValue;
+    public float healthValue;
     TorchScript torch;
     const string player = "Player";
     // Use this for initialization
