@@ -9,7 +9,7 @@ public class SlidePreview : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("localrotation " + this.transform.localRotation.z + " world rotation " + transform.rotation.z);
+        //Debug.Log("localrotation " + this.transform.localRotation.z + " world rotation " + transform.rotation.z);
         if(this.transform.rotation.z < -0.173f)
         {
             turnDir *= -1;
