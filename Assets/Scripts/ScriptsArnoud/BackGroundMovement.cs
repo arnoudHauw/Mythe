@@ -13,7 +13,6 @@ public class BackGroundMovement : MonoBehaviour {
         //speed = controller.chunkSpeed;
     }
 
-
 	void Update () 
     {
         //UpdateSpeed();

@@ -5,7 +5,7 @@ public class DestroyChunk : MonoBehaviour {
 
     void Start()
     {
-        StartCoroutine(DestroyTime(80.0f));
+        StartCoroutine(DestroyTime(60.0f));
     }
     IEnumerator DestroyTime(float _destoryTime) 
     {
