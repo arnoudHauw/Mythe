@@ -23,7 +23,7 @@ public class testMovement : MonoBehaviour
         if (moveDirection.y <= 0.5f)
         {
             Char.GetComponent<Animator>().SetBool(ISWALKING, true);
-            Char.GetComponent<Animator>().SetBool(ISJUMPING, false);
+            //Char.GetComponent<Animator>().SetTrigger(ISJUMPING);
         }
         else
         {
@@ -38,12 +38,14 @@ public class testMovement : MonoBehaviour
         
         if(coll.gameObject.tag == "Ground" || coll.gameObject.tag == "Destroyable")
         {
-            Char.GetComponent<Animator>().SetBool(ISJUMPING, true);
             
-            if(Input.GetButton("Jump"))
+            
+            if(Input.GetButtonDown("Jump"))
             {
                 moveDirection.y = 5;
                 this.GetComponent<Rigidbody2D>().velocity = moveDirection;
+                Char.GetComponent<Animator>().SetTrigger(ISJUMPING);
+                GetComponent<AudioSource>().Play();
             }
         }
     }
