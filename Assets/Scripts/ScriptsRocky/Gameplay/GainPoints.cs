@@ -13,7 +13,7 @@ public class GainPoints : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "ScoreBox")
+        if (other.tag == "ScoreBox" || other.tag == "Destroyable")
         {
             scoreScript.changeScore(other.GetComponent<PointsScript>().score);
         }

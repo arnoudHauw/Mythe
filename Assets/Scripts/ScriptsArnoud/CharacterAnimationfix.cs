@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CharacterAnimationfix : MonoBehaviour {
+public class CharacterAnimationfix : MonoBehaviour
+{
 
     Vector2 MoveDirection;
-    
-	void Update () 
+
+    void Update()
     {
         MoveDirection = gameObject.GetComponent<testMovement>().moveDirection;
-        
+
         if (MoveDirection.x <= 0)
         {
             this.transform.localScale = new Vector3(-1, 1, 1);
@@ -17,5 +18,5 @@ public class CharacterAnimationfix : MonoBehaviour {
         {
             this.transform.localScale = new Vector3(1, 1, 1);
         }
-	}
+    }
 }

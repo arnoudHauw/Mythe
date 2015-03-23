@@ -5,6 +5,7 @@ public class TorchScript : MonoBehaviour
 {
 
     public float torchHealth = 100F;
+    public float torchDepletionSpeed;
     public GameObject playerLight;
     private float lightPercentage;
 
@@ -21,7 +22,7 @@ public class TorchScript : MonoBehaviour
     void Start()
     {
         lightPercentage = playerLight.GetComponent<Light>().spotAngle / torchHealth;
-        Debug.Log(lightPercentage);
+        //Debug.Log(lightPercentage);
         maxTorchSize = playerLight.GetComponent<Light>().spotAngle;
 
         playerLight.GetComponent<Light>().spotAngle += 1;
@@ -30,10 +31,11 @@ public class TorchScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        torchHealth -= Time.deltaTime;
+        torchHealth -= Time.deltaTime * torchDepletionSpeed;
         if(torchHealth < 0)
         {
-            Application.LoadLevel(0);
+            GameObject.FindGameObjectWithTag("DontDestroyScore").GetComponent<DontDestroyScore>().score = GameObject.FindGameObjectWithTag("Score").GetComponent<Score>().scoreValue;
+            Application.LoadLevel(2);
             //Destroy(this.gameObject);
         }
         
@@ -46,7 +48,7 @@ public class TorchScript : MonoBehaviour
             torchSwapVal = torchDamnSpeed;
         }
 
-        Debug.Log(torchDamnSpeed);
+       // Debug.Log(torchDamnSpeed);
 
         playerLight.GetComponent<Light>().spotAngle += torchSwapVal;
 
@@ -64,7 +66,7 @@ public class TorchScript : MonoBehaviour
         else if(other.gameObject.tag == "Barrel")
         {
             torchHealth = 100;
-            Debug.Log("Health Refilled");
+           // Debug.Log("Health Refilled");
         }
 
     }

@@ -39,13 +39,11 @@ public class MovementController : MonoBehaviour
                     cooldown = Time.time + cooldowndelay;
                     playerMovement.jump();
                 }
-
-                if (touch.fingerId == joyStickId)
+                else if (touch.fingerId == joyStickId)
                 {
                     //Debug.Log("result if thisx - mousex" + (Input.mousePosition.x - transform.position.x) as string);
                     if (mainCamera.transform.rotation.z < 0.13f && mainCamera.transform.rotation.z > -0.13f)
                     {
-                        Debug.Log(mainCamera.transform.rotation.z);
                         playerMovement.horizotalMovement((touch.position.x - transform.position.x));
                     }
 

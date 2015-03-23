@@ -12,7 +12,7 @@ public class BackGroundSpawn : MonoBehaviour
 {
 
     private float _spawnTime = 14.0f;
-    private float _spawnDelay = 6.0f;
+    public float _spawnDelay = 6.0f;
 
     public Transform spawn;
 
@@ -49,7 +49,7 @@ public class BackGroundSpawn : MonoBehaviour
 
         spawnPosition = spawn.position;
     }
-   
+
 
     void Spawn()
     {
@@ -61,5 +61,5 @@ public class BackGroundSpawn : MonoBehaviour
         Instantiate(obj, spawnPos, transform.rotation);
     }
 
-   
+
 }

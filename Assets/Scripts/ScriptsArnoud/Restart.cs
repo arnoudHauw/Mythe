@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Restart : MonoBehaviour {
+public class Restart : MonoBehaviour
+{
 
-	public void RestartClick () {
+    public void RestartClick()
+    {
         Application.LoadLevel(1);
-	}
+    }
 }
