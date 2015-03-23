@@ -11,11 +11,11 @@ public class CharacterAnimationfix : MonoBehaviour {
         
         if (MoveDirection.x <= 0)
         {
-            this.transform.localScale = new Vector2(-1, 1);
+            this.transform.localScale = new Vector3(-1, 1, 1);
         }
         else if (MoveDirection.x >= 0)
         {
-            this.transform.localScale = new Vector2(1, 1);
+            this.transform.localScale = new Vector3(1, 1, 1);
         }
 	}
 }

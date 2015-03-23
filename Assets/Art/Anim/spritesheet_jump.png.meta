@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f90d0d455a9acf94bae83b20ef08bfe0
-timeCreated: 1426759316
+timeCreated: 1426858258
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -71,8 +71,8 @@ TextureImporter:
         y: 425
         width: 54
         height: 80
-      alignment: 5
-      pivot: {x: 1, y: .5}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: spritesheet_jump_1
       rect:

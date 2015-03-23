@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c9d456dbc5d97a24187f5042ba32043d
-timeCreated: 1426109739
+timeCreated: 1426855819
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -73,8 +73,8 @@ TextureImporter:
         y: 428
         width: 60
         height: 82
-      alignment: 4
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_1
       rect:
@@ -84,7 +84,7 @@ TextureImporter:
         width: 56
         height: 82
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_2
       rect:
@@ -94,7 +94,7 @@ TextureImporter:
         width: 57
         height: 82
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_3
       rect:
@@ -104,7 +104,7 @@ TextureImporter:
         width: 56
         height: 81
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_4
       rect:
@@ -114,7 +114,7 @@ TextureImporter:
         width: 55
         height: 85
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_5
       rect:
@@ -124,7 +124,7 @@ TextureImporter:
         width: 55
         height: 85
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_6
       rect:
@@ -134,7 +134,7 @@ TextureImporter:
         width: 56
         height: 82
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_7
       rect:
@@ -144,7 +144,7 @@ TextureImporter:
         width: 56
         height: 80
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_8
       rect:
@@ -154,7 +154,7 @@ TextureImporter:
         width: 57
         height: 81
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_9
       rect:
@@ -164,7 +164,7 @@ TextureImporter:
         width: 54
         height: 84
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_10
       rect:
@@ -174,7 +174,7 @@ TextureImporter:
         width: 56
         height: 82
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_11
       rect:
@@ -184,7 +184,7 @@ TextureImporter:
         width: 55
         height: 82
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_12
       rect:
@@ -194,7 +194,7 @@ TextureImporter:
         width: 54
         height: 81
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_13
       rect:
@@ -204,7 +204,7 @@ TextureImporter:
         width: 54
         height: 78
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_14
       rect:
@@ -214,7 +214,7 @@ TextureImporter:
         width: 54
         height: 79
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_15
       rect:
@@ -224,7 +224,7 @@ TextureImporter:
         width: 55
         height: 81
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: walking_anim_sprite_texturepacker (1)_16
       rect:
@@ -234,7 +234,7 @@ TextureImporter:
         width: 54
         height: 77
       alignment: 4
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

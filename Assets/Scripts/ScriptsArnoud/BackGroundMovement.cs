@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BackGroundMovement : MonoBehaviour {
 
-    private float _speed = -1.5f;
+    public float _speed = -1.5f;
 
 	void Update () 
     {
