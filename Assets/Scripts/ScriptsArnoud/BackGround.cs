@@ -12,7 +12,7 @@ public class BackGround : MonoBehaviour
     {
         _bioTime -= Time.deltaTime;
         yield return new WaitForSeconds(_bioTime);
-        
+
         gameObject.GetComponent<BackGroundSpawn>().backgroundType = BackgroundType.Stone;
     }
 }

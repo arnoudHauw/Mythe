@@ -49,7 +49,7 @@ public class BackGroundSpawn : MonoBehaviour
 
         spawnPosition = spawn.position;
     }
-   
+
 
     void Spawn()
     {
@@ -61,5 +61,5 @@ public class BackGroundSpawn : MonoBehaviour
         Instantiate(obj, spawnPos, transform.rotation);
     }
 
-   
+
 }
