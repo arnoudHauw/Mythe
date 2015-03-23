@@ -12,57 +12,70 @@ SceneSettings:
     backfaceThreshold: 100
 --- !u!104 &2
 RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 6
   m_Fog: 0
   m_FogColor: {r: .5, g: .5, b: .5, a: 1}
   m_FogMode: 3
   m_FogDensity: .00999999978
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientLight: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: .5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
-  m_SpotCookie: {fileID: 0}
-  m_ObjectHideFlags: 0
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
 --- !u!127 &3
 LevelGameManager:
   m_ObjectHideFlags: 0
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
-  m_LightProbes: {fileID: 0}
-  m_Lightmaps: []
+  serializedVersion: 5
+  m_GIWorkflowMode: 1
   m_LightmapsMode: 1
-  m_BakedColorSpace: 0
-  m_UseDualLightmapsInForward: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    m_Resolution: 50
-    m_LastUsedResolution: 0
+    serializedVersion: 3
+    m_Resolution: 1
+    m_BakeResolution: 50
     m_TextureWidth: 1024
     m_TextureHeight: 1024
-    m_BounceBoost: 1
-    m_BounceIntensity: 1
-    m_SkyLightColor: {r: .860000014, g: .930000007, b: 1, a: 1}
-    m_SkyLightIntensity: 0
-    m_Quality: 0
-    m_Bounces: 1
-    m_FinalGatherRays: 1000
-    m_FinalGatherContrastThreshold: .0500000007
-    m_FinalGatherGradientThreshold: 0
-    m_FinalGatherInterpolationPoints: 15
-    m_AOAmount: 0
-    m_AOMaxDistance: .100000001
-    m_AOContrast: 1
-    m_LODSurfaceMappingDistance: 1
-    m_Padding: 0
+    m_AOMaxDistance: 1
+    m_Padding: 2
+    m_CompAOExponent: 0
+    m_LightmapParameters: {fileID: 0}
     m_TextureCompression: 0
-    m_LockAtlas: 0
+    m_FinalGather: 0
+    m_FinalGatherRayCount: 1024
+  m_LightmapSnapshot: {fileID: 0}
+  m_RuntimeCPUUsage: 25
 --- !u!196 &5
 NavMeshSettings:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
+    serializedVersion: 2
     agentRadius: .5
     agentHeight: 2
     agentSlope: 45
@@ -71,9 +84,9 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     accuratePlacement: 0
     minRegionArea: 2
-    widthInaccuracy: 16.666666
-    heightInaccuracy: 10
-  m_NavMesh: {fileID: 0}
+    cellSize: .166666657
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
 --- !u!1 &134581904
 GameObject:
   m_ObjectHideFlags: 0
@@ -93,7 +106,7 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &134581905
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -101,15 +114,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 6da5c04b98586cc4298032f7e944b495, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!61 &134581906
@@ -121,8 +138,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!33 &134581907
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -181,10 +200,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!23 &152479282
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -192,15 +213,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: bc133f2d89a87e94494d8f36757d5a41, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!33 &152479283
@@ -249,10 +274,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!23 &353338250
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -260,15 +287,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!33 &353338251
@@ -305,10 +336,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!23 &535301626
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -316,15 +349,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!33 &535301627
@@ -373,10 +410,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!23 &578218291
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -384,15 +423,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!33 &578218292
@@ -510,6 +553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7db8bd858a131124a9e6a76a53cd6b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turnDir: 2
 --- !u!1 &1084748265
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,10 +593,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!23 &1084748268
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -560,15 +606,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!33 &1084748269
@@ -605,10 +655,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!23 &1226018260
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -616,15 +668,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!33 &1226018261
@@ -745,10 +801,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!23 &1547295395
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -756,15 +814,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: bc133f2d89a87e94494d8f36757d5a41, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!33 &1547295396
@@ -826,7 +888,7 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &1632747658
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -834,15 +896,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: d4c854d6d70e5bc4d8490531abcdc45c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!50 &1632747659
@@ -892,7 +958,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slideMultiplier: 75
+  moveDirection: {x: 0, y: 0}
   mainCamera: {fileID: 592920036}
+  Char: {fileID: 1632747657}
 --- !u!61 &1632747663
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -902,8 +970,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!114 &1632747664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -918,6 +988,7 @@ MonoBehaviour:
   torchHealth: 999
   playerLight: {fileID: 1935921561}
   torchSwapRange: 0
+  torchDamnSpeed: .00999999978
 --- !u!1 &1673779801
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,7 +1008,7 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!23 &1673779802
-Renderer:
+MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -945,15 +1016,19 @@ Renderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: bc133f2d89a87e94494d8f36757d5a41, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!61 &1673779803
@@ -965,8 +1040,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_Center: {x: 0, y: 0}
 --- !u!33 &1673779804
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -986,104 +1063,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1531505084}
   m_RootOrder: 1
---- !u!1 &1858219053
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1858219057}
-  - 33: {fileID: 1858219056}
-  - 23: {fileID: 1858219055}
-  - 61: {fileID: 1858219054}
-  - 50: {fileID: 1858219059}
-  - 114: {fileID: 1858219058}
-  m_Layer: 0
-  m_Name: Barrel
-  m_TagString: Barrel
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!61 &1858219054
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1858219053}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1.00000012, y: 2}
-  m_Center: {x: 5.96046448e-08, y: 0}
---- !u!23 &1858219055
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1858219053}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &1858219056
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1858219053}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1858219057
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1858219053}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.66499996, y: -1.36800003, z: 0}
-  m_LocalScale: {x: 1, y: .5, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
---- !u!114 &1858219058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1858219053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f508bcd6a3c63e449aa8d6e92999e8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainCamera: {fileID: 592920036}
-  slideMultiplier: 45
---- !u!50 &1858219059
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1858219053}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_FixedAngle: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!1 &1935921561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,10 +1098,10 @@ Light:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1935921561}
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 6
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 20
   m_SpotAngle: 75
   m_CookieSize: 10
@@ -1131,19 +1110,16 @@ Light:
     m_Resolution: -1
     m_Strength: 1
     m_Bias: .0500000007
-    m_Softness: 4
-    m_SoftnessFade: 1
-  m_Cookie: {fileID: 0}
+    m_NormalBias: .400000006
+  m_Cookie: {fileID: 2800000, guid: 4d8dd3b269151d44eb5d3214ed6e46e2, type: 3}
   m_DrawHalo: 0
-  m_ActuallyLightmapped: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_Lightmapping: 1
-  m_ShadowSamples: 1
+  m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
-  m_IndirectIntensity: 1
   m_AreaSize: {x: 1, y: 1}
