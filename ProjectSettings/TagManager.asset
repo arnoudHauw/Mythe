@@ -10,6 +10,8 @@ TagManager:
   - Health
   - Score
   - ScoreBox
+  - ChunkController
+  - DontDestroyScore
   layers:
   - Default
   - TransparentFX

@@ -3,12 +3,21 @@ using System.Collections;
 
 public class BackGroundMovement : MonoBehaviour {
 
-    private float _speed = -1.5f;
+    public float speed = -1.5f;
+    //public ChangeChunkSpeed controller;
+
+    void Start() 
+    {
+
+        //controller = GameObject.FindGameObjectWithTag("ChunkController").GetComponent<ChangeChunkSpeed>();
+        //speed = controller.chunkSpeed;
+    }
+
 
 	void Update () 
     {
         //UpdateSpeed();
-        transform.Translate(Vector3.down * (_speed * Time.deltaTime));
+        transform.Translate(Vector3.down * (speed * Time.deltaTime));
 	}
     /*void UpdateSpeed()
     {

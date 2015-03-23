@@ -5,6 +5,7 @@ public class TorchScript : MonoBehaviour
 {
 
     public float torchHealth = 100F;
+    public float torchDepletionSpeed;
     public GameObject playerLight;
     private float lightPercentage;
 
@@ -30,10 +31,11 @@ public class TorchScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        torchHealth -= Time.deltaTime * 10;
+        torchHealth -= Time.deltaTime * torchDepletionSpeed;
         if(torchHealth < 0)
         {
-            Application.LoadLevel(0);
+            GameObject.FindGameObjectWithTag("DontDestroyScore").GetComponent<DontDestroyScore>().score = GameObject.FindGameObjectWithTag("Score").GetComponent<Score>().scoreValue;
+            Application.LoadLevel(2);
             //Destroy(this.gameObject);
         }
         
@@ -54,7 +56,7 @@ public class TorchScript : MonoBehaviour
 
     }
 
-    void OnCollisionEnter2D(Collision2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.tag == "Destroyable")
         {

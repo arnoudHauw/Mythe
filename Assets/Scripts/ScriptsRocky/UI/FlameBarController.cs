@@ -16,8 +16,6 @@ public class FlameBarController : MonoBehaviour {
 	void Update () 
     {
         //checking the name of the animation that is playing
-        Debug.Log(animator.GetCurrentAnimatorStateInfo(0).IsName("FlameBarFill"));
-        Debug.Log(animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("FlameBar"))
         {
             //animator.ForceStateNormalizedTime((100 - torch.torchHealth)/100);
