@@ -3,14 +3,12 @@ using System.Collections;
 
 public class DestroyChunk : MonoBehaviour {
 
-    void Start()
+    public int DeSpawn;
+    void Update() 
     {
-        StartCoroutine(DestroyTime(60.0f));
-    }
-    IEnumerator DestroyTime(float _destoryTime) 
-    {
-        _destoryTime -= Time.deltaTime;
-        yield return new WaitForSeconds(_destoryTime);
-        Destroy(gameObject);
+        if(this.transform.position.y > DeSpawn)
+        {
+            Destroy(this.gameObject);
+        }
 	}
 }

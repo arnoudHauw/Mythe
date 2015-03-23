@@ -12,6 +12,7 @@ TagManager:
   - ScoreBox
   - ChunkController
   - DontDestroyScore
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX

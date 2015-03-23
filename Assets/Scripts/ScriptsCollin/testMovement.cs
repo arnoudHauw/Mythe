@@ -11,7 +11,9 @@ public class testMovement : MonoBehaviour
     //  + (mainCamera.transform.rotation.z * slideMultiplier)
     public GameObject mainCamera;
     public GameObject Char;
-    // Update is called once per frame
+    public AudioClip WalkClip;
+    public AudioClip JumpClip;
+
 
     private const string ISWALKING = "IsWalking";
     private const string ISJUMPING = "IsJumping";
@@ -19,15 +21,19 @@ public class testMovement : MonoBehaviour
     void Update()
     {
         moveDirection = new Vector2(Input.GetAxis("Horizontal") * moveSpeed + (mainCamera.transform.rotation.z * slideMultiplier), this.GetComponent<Rigidbody2D>().velocity.y);
+        
 
-        if (moveDirection.y <= 0.5f)
+        if (moveDirection.x != 0.0f)
         {
             Char.GetComponent<Animator>().SetBool(ISWALKING, true);
-            //Char.GetComponent<Animator>().SetTrigger(ISJUMPING);
         }
         else
         {
             Char.GetComponent<Animator>().SetBool(ISWALKING, false);
+            GetComponent<AudioSource>().clip = WalkClip;
+            GetComponent<AudioSource>().loop = true;
+            GetComponent<AudioSource>().Play();
+            Debug.Log(moveDirection);
         }
 
         this.GetComponent<Rigidbody2D>().velocity = moveDirection;
@@ -39,12 +45,12 @@ public class testMovement : MonoBehaviour
         if(coll.gameObject.tag == "Ground" || coll.gameObject.tag == "Destroyable")
         {
             
-            
-            if(Input.GetButtonDown("Jump"))
+            if(Input.GetButton("Jump"))
             {
                 moveDirection.y = 5;
                 this.GetComponent<Rigidbody2D>().velocity = moveDirection;
                 Char.GetComponent<Animator>().SetTrigger(ISJUMPING);
+                GetComponent<AudioSource>().clip = JumpClip;
                 GetComponent<AudioSource>().Play();
             }
         }
