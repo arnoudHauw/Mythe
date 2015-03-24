@@ -45,13 +45,12 @@ public class BackGroundSpawn : MonoBehaviour
         map.Add(BackgroundType.Stone, stoneBackgrounds);
         map.Add(BackgroundType.Forest, forestBackgrounds);
 
-        InvokeRepeating("Spawn", _spawnDelay, _spawnTime);
-
+        //InvokeRepeating("Spawn", _spawnDelay, _spawnTime);
         spawnPosition = spawn.position;
     }
 
 
-    void Spawn()
+    public void Spawn()
     {
         Vector3 disSpawn = new Vector3(3, 0, 0);
         Vector3 spawnPos = spawnPosition + disSpawn;

@@ -1,11 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: b38675b6bc41a054a93caee21555cf90
-timeCreated: 1427101391
-=======
-guid: 6fb7d1bfdd74a77489ce7e02555753ba
-timeCreated: 1426147526
->>>>>>> 8e81236f9662db49b29507a6640dcfb00db3dbf8
+timeCreated: 1427110013
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -29,7 +24,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -52,7 +47,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: 1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -79,7 +74,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_1
       rect:
@@ -89,7 +84,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_2
       rect:
@@ -99,7 +94,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_3
       rect:
@@ -109,7 +104,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_4
       rect:
@@ -119,7 +114,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_5
       rect:
@@ -129,7 +124,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_6
       rect:
@@ -139,7 +134,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_7
       rect:
@@ -149,7 +144,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_8
       rect:
@@ -159,7 +154,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_9
       rect:
@@ -169,7 +164,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_10
       rect:
@@ -179,7 +174,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_11
       rect:
@@ -189,7 +184,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_12
       rect:
@@ -199,7 +194,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_13
       rect:
@@ -209,7 +204,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_14
       rect:
@@ -219,7 +214,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_15
       rect:
@@ -229,7 +224,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: CORRECT_16
       rect:
@@ -239,7 +234,7 @@ TextureImporter:
         width: 57
         height: 90
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
