@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: ec45a4a8c40771f4a96ade77d1b99f72
+timeCreated: 1427209221
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pro_walking_0
+    21300002: pro_walking_1
+    21300004: pro_walking_2
+    21300006: pro_walking_3
+    21300008: pro_walking_4
+    21300010: pro_walking_5
+    21300012: pro_walking_6
+    21300014: pro_walking_7
+    21300016: pro_walking_8
+    21300018: pro_walking_9
+    21300020: pro_walking_10
+    21300022: pro_walking_11
+    21300024: pro_walking_12
+    21300026: pro_walking_13
+    21300028: pro_walking_14
+    21300030: pro_walking_15
+    21300032: pro_walking_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pro_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 422
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 422
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 422
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 332
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 332
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 332
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 242
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_10
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 242
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_11
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 242
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 152
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 152
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_15
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 152
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_walking_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
