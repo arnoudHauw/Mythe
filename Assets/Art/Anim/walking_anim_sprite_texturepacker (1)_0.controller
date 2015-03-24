@@ -67,7 +67,7 @@ AnimatorStateTransition:
   m_TransitionDuration: .100000001
   m_TransitionOffset: 0
   m_ExitTime: .899999976
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
@@ -133,7 +133,7 @@ AnimatorStateTransition:
   m_TransitionDuration: .166666657
   m_TransitionOffset: 0
   m_ExitTime: .833333373
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
@@ -153,7 +153,7 @@ AnimatorState:
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
   m_Mirror: 0
-  m_Motion: {fileID: 0}
+  m_Motion: {fileID: 7400000, guid: b9dc7eaab133e9d47ba17ce86d9d0f73, type: 2}
   m_Tag: 
 --- !u!1102 &110251910
 AnimatorState:

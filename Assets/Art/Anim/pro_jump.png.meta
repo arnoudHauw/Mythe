@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 51a8541ba1934b1458ae62bd9bbb8ec3
+timeCreated: 1427209317
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pro_jump_0
+    21300002: pro_jump_1
+    21300004: pro_jump_2
+    21300006: pro_jump_3
+    21300008: pro_jump_4
+    21300010: pro_jump_5
+    21300012: pro_jump_6
+    21300014: pro_jump_7
+    21300016: pro_jump_8
+    21300018: pro_jump_9
+    21300020: pro_jump_10
+    21300022: pro_jump_11
+    21300024: pro_jump_12
+    21300026: pro_jump_13
+    21300028: pro_jump_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pro_jump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 408
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 408
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 408
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 408
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 408
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 408
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 304
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 304
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 304
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 304
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_12
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 304
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 304
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pro_jump_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 70
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
