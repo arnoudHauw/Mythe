@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
   - enabled: 0
     path: Assets/Scenes/PrototypeArnoud1.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/PrototypeRocky.unity
   - enabled: 0
     path: Assets/Scenes/PrototypeCollin.unity
-  - enabled: 0
-    path: Assets/Scenes/GameOverScreen.unity
   - enabled: 1
+    path: Assets/Scenes/GameOverScreen.unity
+  - enabled: 0
     path: Assets/Scenes/TestSceneArnoud.unity

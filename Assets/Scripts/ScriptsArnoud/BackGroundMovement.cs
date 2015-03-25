@@ -7,9 +7,13 @@ public class BackGroundMovement : MonoBehaviour
     public float speed;
     private bool _mayISpawn = true;
 
+    void Start()
+    {
+        speed = GameObject.FindGameObjectWithTag("ChunkController").GetComponent<ChangeChunkSpeed>().chunkSpeed;
+    }
+
     void Update()
     {
-        //UpdateSpeed();
         transform.Translate(Vector3.down * (speed * Time.deltaTime));
         if (this.transform.position.y > 0 && _mayISpawn == true)
         {
@@ -17,8 +21,4 @@ public class BackGroundMovement : MonoBehaviour
             GameObject.FindGameObjectWithTag("SpawnPoint").GetComponent<BackGroundSpawn>().Spawn();
         }
     }
-    /*void UpdateSpeed()
-    {
-        _speed = _speed - 0.01f;
-    }*/
 }

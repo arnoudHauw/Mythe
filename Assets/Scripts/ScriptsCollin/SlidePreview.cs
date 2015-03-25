@@ -27,8 +27,6 @@ public class SlidePreview : MonoBehaviour
            cooldown = Time.time + baseCooldown + Random.Range(0, 3);
        }*/
         direction = new Vector3(0, 0,(Time.deltaTime * turnDir));
-        Debug.Log(Time.deltaTime * turnDir);
-        Debug.Log(direction);
         this.transform.Rotate(direction);
     }
 }

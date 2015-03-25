@@ -1034,7 +1034,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -1.5
-  controller: {fileID: 0}
 --- !u!114 &11428102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1082,6 +1081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5728cbba00d419b4ab0d4f428cee19a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeSpawn: 20
 --- !u!114 &11472934
 MonoBehaviour:
   m_ObjectHideFlags: 1

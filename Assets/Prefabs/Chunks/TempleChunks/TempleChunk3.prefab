@@ -1045,6 +1045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5728cbba00d419b4ab0d4f428cee19a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeSpawn: 20
 --- !u!114 &11471630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1069,7 +1070,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -1.5
-  controller: {fileID: 0}
 --- !u!114 &11497154
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1233,7 +1233,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 1428772cc0efa9b44aa375f919ffff99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21285588
