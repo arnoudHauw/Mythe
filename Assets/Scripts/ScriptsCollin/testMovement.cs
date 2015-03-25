@@ -33,7 +33,6 @@ public class testMovement : MonoBehaviour
             GetComponent<AudioSource>().clip = WalkClip;
             GetComponent<AudioSource>().loop = true;
             GetComponent<AudioSource>().Play();
-            Debug.Log(moveDirection);
         }
 
         this.GetComponent<Rigidbody2D>().velocity = moveDirection;

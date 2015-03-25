@@ -1,0 +1,495 @@
+fileFormatVersion: 2
+guid: d6744df9ceaa59c46b9dcb3e386501b5
+timeCreated: 1427214380
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: refill_point_fire_0
+    21300002: refill_point_fire_1
+    21300004: refill_point_fire_2
+    21300006: refill_point_fire_3
+    21300008: refill_point_fire_4
+    21300010: refill_point_fire_5
+    21300012: refill_point_fire_6
+    21300014: refill_point_fire_7
+    21300016: refill_point_fire_8
+    21300018: refill_point_fire_9
+    21300020: refill_point_fire_10
+    21300022: refill_point_fire_11
+    21300024: refill_point_fire_12
+    21300026: refill_point_fire_13
+    21300028: refill_point_fire_14
+    21300030: refill_point_fire_15
+    21300032: refill_point_fire_16
+    21300034: refill_point_fire_17
+    21300036: refill_point_fire_18
+    21300038: refill_point_fire_19
+    21300040: refill_point_fire_20
+    21300042: refill_point_fire_21
+    21300044: refill_point_fire_22
+    21300046: refill_point_fire_23
+    21300048: refill_point_fire_24
+    21300050: refill_point_fire_25
+    21300052: refill_point_fire_26
+    21300054: refill_point_fire_27
+    21300056: refill_point_fire_28
+    21300058: refill_point_fire_29
+    21300060: refill_point_fire_30
+    21300062: refill_point_fire_31
+    21300064: refill_point_fire_32
+    21300066: refill_point_fire_33
+    21300068: refill_point_fire_34
+    21300070: refill_point_fire_35
+    21300072: refill_point_fire_36
+    21300074: refill_point_fire_37
+    21300076: refill_point_fire_38
+    21300078: refill_point_fire_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: refill_point_fire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_8
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_9
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_10
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 851
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_15
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_16
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_17
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_19
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_20
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_21
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 678
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_24
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_26
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_27
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_28
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_29
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_30
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_31
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_32
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 505
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_34
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 332
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_35
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 332
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_36
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 332
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_37
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 332
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_38
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 332
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: refill_point_fire_39
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 332
+        width: 86
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
