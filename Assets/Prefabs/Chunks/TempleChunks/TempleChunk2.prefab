@@ -1105,7 +1105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5728cbba00d419b4ab0d4f428cee19a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DeSpawn: 0
+  DeSpawn: 20
 --- !u!212 &21222476
 SpriteRenderer:
   m_ObjectHideFlags: 1
