@@ -380,7 +380,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13431d58152d48c47820358146a42476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joyStickId: -1
   mainCamera: {fileID: 345753479}
+  Char: {fileID: 1005022233}
+--- !u!1 &1005022233
+GameObject:
+  m_PrefabParentObject: {fileID: 134654, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
+  m_PrefabInternal: {fileID: 1980834829}
 --- !u!1001 &1980834829
 Prefab:
   m_ObjectHideFlags: 0
@@ -424,6 +430,10 @@ Prefab:
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 345753479}
+    - target: {fileID: 11413354, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
   m_IsPrefabParent: 0

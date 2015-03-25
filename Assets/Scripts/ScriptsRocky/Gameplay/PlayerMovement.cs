@@ -6,6 +6,13 @@ public class PlayerMovement : MonoBehaviour {
     public float speedcap = 25;
     float jumpForce = 200;
     public float speed;
+    public GameObject Character;
+    public AudioClip WalkClip;
+    public AudioClip JumpClip;
+
+
+    private const string ISWALKING = "IsWalking";
+    private const string ISJUMPING = "IsJumping";
 
     public void horizotalMovement(float speedIn) 
     {
@@ -26,5 +33,8 @@ public class PlayerMovement : MonoBehaviour {
     public void jump() 
     {
         GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpForce));
+        Character.GetComponent<Animator>().SetTrigger(ISJUMPING);
+        GetComponent<AudioSource>().clip = JumpClip;
+        GetComponent<AudioSource>().Play();
     }
 }
