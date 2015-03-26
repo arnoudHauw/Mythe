@@ -126,18 +126,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 11450290, guid: 700a8eb7bffa8b74f9bf28c4831cf5f1, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 133586, guid: 700a8eb7bffa8b74f9bf28c4831cf5f1, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11450866, guid: 700a8eb7bffa8b74f9bf28c4831cf5f1, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 700a8eb7bffa8b74f9bf28c4831cf5f1, type: 2}
   m_IsPrefabParent: 0
@@ -298,8 +286,8 @@ GameObject:
   - 224: {fileID: 992636295}
   - 222: {fileID: 992636298}
   - 114: {fileID: 992636297}
-  - 114: {fileID: 992636296}
   - 114: {fileID: 992636299}
+  - 114: {fileID: 992636296}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -319,9 +307,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2111706251}
   m_RootOrder: 0
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -169, y: -111}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 89, y: 51}
   m_SizeDelta: {x: 74, y: 73}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &992636296
@@ -340,8 +328,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 992636294}
-          m_MethodName: 
+        - m_Target: {fileID: 992636299}
+          m_MethodName: click
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -392,7 +380,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13431d58152d48c47820358146a42476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
+  joyStickId: -1
+  mainCamera: {fileID: 345753479}
+  Char: {fileID: 1005022233}
+--- !u!1 &1005022233
+GameObject:
+  m_PrefabParentObject: {fileID: 134654, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
+  m_PrefabInternal: {fileID: 1980834829}
 --- !u!1001 &1980834829
 Prefab:
   m_ObjectHideFlags: 0
@@ -436,6 +430,10 @@ Prefab:
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 345753479}
+    - target: {fileID: 11413354, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
   m_IsPrefabParent: 0

@@ -5,19 +5,27 @@ public class PlayerMovement : MonoBehaviour {
 
     public float speedcap = 25;
     float jumpForce = 200;
+    public float speed;
+    public GameObject Character;
+    public AudioClip WalkClip;
+    public AudioClip JumpClip;
 
-    public void horizotalMovement(float speed) 
+
+    private const string ISWALKING = "IsWalking";
+    private const string ISJUMPING = "IsJumping";
+
+    public void horizotalMovement(float speedIn) 
     {
         //checks if the speed is over the maximum and when it is sets it to the maximum speed
-        if (speed > speedcap)
+        if (speedIn > speedcap)
         {
-            speed = speedcap;
+            speedIn = speedcap;
         }
-        else if (speed < -speedcap)
+        else if (speedIn < -speedcap)
         {
-            speed = -speedcap;
+            speedIn = -speedcap;
         }
-
+        speed = speedIn;
         //applies movement
         transform.Translate(speed * Time.deltaTime /2,0,0);
     }
@@ -25,5 +33,8 @@ public class PlayerMovement : MonoBehaviour {
     public void jump() 
     {
         GetComponent<Rigidbody2D>().AddForce(new Vector2(0,jumpForce));
+        Character.GetComponent<Animator>().SetTrigger(ISJUMPING);
+        GetComponent<AudioSource>().clip = JumpClip;
+        GetComponent<AudioSource>().Play();
     }
 }

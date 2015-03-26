@@ -3,12 +3,14 @@ using System.Collections;
 
 public class MovementController : MonoBehaviour
 {
-    int joyStickId = -1;
+    public int joyStickId = -1;
     //Touch touch1;
     PlayerMovement playerMovement;
     public GameObject mainCamera;
+    public GameObject Char;
     float cooldown = 0;
     float cooldowndelay = 1;
+    private const string ISWALKING = "IsWalking";
     void Start() 
     {
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
@@ -51,6 +53,7 @@ public class MovementController : MonoBehaviour
                     if (touch.phase == TouchPhase.Ended)
                     {
                         joyStickId = -1;
+                        Char.GetComponent<Animator>().SetBool(ISWALKING, false);
                     }
                     
                 }

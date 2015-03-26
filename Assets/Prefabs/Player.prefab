@@ -18,7 +18,7 @@ GameObject:
   - 82: {fileID: 8265570}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Ground
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,8 +225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3d2b1e236695024395ee4dcd672237f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torchHealth: 999
-  torchDepletionSpeed: 0
+  torchHealth: 100
+  torchDepletionSpeed: 5
   playerLight: {fileID: 0}
   torchSwapRange: 5
   torchDamnSpeed: .00999999978
@@ -242,6 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedcap: 25
+  speed: 0
 --- !u!212 &21283648
 SpriteRenderer:
   m_ObjectHideFlags: 1
