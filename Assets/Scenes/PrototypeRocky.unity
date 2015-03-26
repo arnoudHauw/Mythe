@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: .00999999978
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: .862745106}
   m_AmbientEquatorColor: {r: .200000003, g: .200000003, b: .200000003, a: 1}
   m_AmbientGroundColor: {r: .200000003, g: .200000003, b: .200000003, a: 1}
   m_AmbientIntensity: 1
@@ -132,7 +132,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 21283648, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11413354, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
       propertyPath: mainCamera
@@ -154,6 +154,10 @@ Prefab:
       propertyPath: torchDepletionSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6191824, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 089e188f121bb474f86ef543f80c961e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
   m_IsPrefabParent: 0
@@ -1005,7 +1009,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1310387360}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 8}
   serializedVersion: 2
@@ -1115,7 +1119,7 @@ MonoBehaviour:
   - {fileID: 133586, guid: 700a8eb7bffa8b74f9bf28c4831cf5f1, type: 2}
   - {fileID: 116400, guid: 1aed4b0b35ff6bf419e4e36de5ad97d1, type: 2}
   - {fileID: 166562, guid: 16ad7b8b9b373df4485dccda69caa61c, type: 2}
-  _backgroundType: 0
+  _backgroundType: 1
 --- !u!4 &1533361524
 Transform:
   m_ObjectHideFlags: 0
