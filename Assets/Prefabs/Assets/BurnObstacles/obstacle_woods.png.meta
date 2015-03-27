@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: 6e4505dcf27a3174d8c78205f905ca84
+timeCreated: 1427460476
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: obstacle_woods_0
+    21300002: obstacle_woods_1
+    21300004: obstacle_woods_2
+    21300006: obstacle_woods_3
+    21300008: obstacle_woods_4
+    21300010: obstacle_woods_5
+    21300012: obstacle_woods_6
+    21300014: obstacle_woods_7
+    21300016: obstacle_woods_8
+    21300018: obstacle_woods_9
+    21300020: obstacle_woods_10
+    21300022: obstacle_woods_11
+    21300024: obstacle_woods_12
+    21300026: obstacle_woods_13
+    21300028: obstacle_woods_14
+    21300030: obstacle_woods_15
+    21300032: obstacle_woods_16
+    21300034: obstacle_woods_17
+    21300036: obstacle_woods_18
+    21300038: obstacle_woods_19
+    21300040: obstacle_woods_20
+    21300042: obstacle_woods_21
+    21300044: obstacle_woods_22
+    21300046: obstacle_woods_23
+    21300048: obstacle_woods_24
+    21300050: obstacle_woods_25
+    21300052: obstacle_woods_26
+    21300054: obstacle_woods_27
+    21300056: obstacle_woods_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: obstacle_woods_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_2
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_3
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_4
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_5
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_6
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_7
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_8
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_9
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_10
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1853
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_12
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_14
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_15
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_16
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_17
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_18
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_19
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_20
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_21
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1658
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1463
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1463
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_24
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1463
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_25
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1463
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_26
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1463
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_27
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1463
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: obstacle_woods_28
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1463
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
