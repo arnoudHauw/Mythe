@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour {
 
     public float speedcap = 25;
-    float jumpForce = 200;
+    float jumpForce = 300;
     public float speed;
     public GameObject Character;
     public AudioClip WalkClip;

@@ -13,19 +13,19 @@ public class TorchScript : MonoBehaviour
 
     private float torchSwapVal;
 
-    public float torchSwapRange = 5;
+    public float torchSwapRange = 50;
 
-    public float torchDamnSpeed = 0.01f;
+    public float torchDamnSpeed = 1f;
 
     
     // Use this for initialization
     void Start()
     {
-        lightPercentage = playerLight.GetComponent<Light>().spotAngle / torchHealth;
+        lightPercentage = playerLight.GetComponent<Light>().intensity / torchHealth;
         //Debug.Log(lightPercentage);
-        maxTorchSize = playerLight.GetComponent<Light>().spotAngle;
+        maxTorchSize = playerLight.GetComponent<Light>().intensity;
 
-        playerLight.GetComponent<Light>().spotAngle += 1;
+        playerLight.GetComponent<Light>().intensity += 1;
     }
 
     // Update is called once per frame
@@ -39,18 +39,18 @@ public class TorchScript : MonoBehaviour
             //Destroy(this.gameObject);
         }
         
-        if(playerLight.GetComponent<Light>().spotAngle > maxTorchSize)
+        if(playerLight.GetComponent<Light>().intensity > maxTorchSize && playerLight.GetComponent<Light>().intensity > 2)
         {
             torchSwapVal = -torchDamnSpeed;
         }
-        else if (playerLight.GetComponent<Light>().spotAngle < maxTorchSize - torchSwapRange)
+        else if (playerLight.GetComponent<Light>().intensity < maxTorchSize - torchSwapRange && playerLight.GetComponent<Light>().intensity > 2)
         {
             torchSwapVal = torchDamnSpeed;
         }
 
        // Debug.Log(torchDamnSpeed);
 
-        playerLight.GetComponent<Light>().spotAngle += torchSwapVal;
+        playerLight.GetComponent<Light>().intensity += torchSwapVal;
 
         maxTorchSize = lightPercentage * torchHealth;
 
@@ -61,7 +61,8 @@ public class TorchScript : MonoBehaviour
         if(other.gameObject.tag == "Destroyable")
         {
             torchHealth -= 10F;
-            Destroy(other.gameObject);
+            other.GetComponent<Animator>().SetTrigger("StartAnim");
+            //Destroy(other.gameObject);
         }
         else if(other.gameObject.tag == "Barrel")
         {

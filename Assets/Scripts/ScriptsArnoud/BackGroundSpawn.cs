@@ -37,7 +37,7 @@ public class BackGroundSpawn : MonoBehaviour
 
     void Start()
     {
-        backgroundType = BackgroundType.Snow;
+        //backgroundType = BackgroundType.Snow;
         map.Add(BackgroundType.Snow, SnowBackgrounds);
         map.Add(BackgroundType.Temple, templeBackgrounds);
         map.Add(BackgroundType.Forest, forestBackgrounds);
