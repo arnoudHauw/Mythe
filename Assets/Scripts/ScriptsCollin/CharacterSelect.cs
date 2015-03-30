@@ -5,11 +5,15 @@ using System.IO;
 public class CharacterSelect : MonoBehaviour
 {
     public GameObject chars;
-    private CharacterSLide charSlideScript; 
+    private CharacterSLide charSlideScript;
+
+    private SelectedCharacter selChar;
+
     // Use this for initialization
     void Start()
     {
         charSlideScript = chars.GetComponent<CharacterSLide>();
+        selChar = GameObject.FindGameObjectWithTag("PersistentObject").GetComponent<SelectedCharacter>();
     }
 
     // Update is called once per frame
@@ -27,6 +31,12 @@ public class CharacterSelect : MonoBehaviour
         else if(gameObject.name == "Right")
         {
             charSlideScript.slideRight();
+        }
+        else if(gameObject.name == "Confirm")
+        {
+            selChar.selChar = charSlideScript.getSelectedChar();
+            Application.LoadLevel(1);
+            Debug.Log("Yolo");
         }
     }
 }
