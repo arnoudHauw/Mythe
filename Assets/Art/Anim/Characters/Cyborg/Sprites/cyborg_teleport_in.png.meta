@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 8b5049deedb6dd049ab371ff8c4611d5
+timeCreated: 1427709231
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cyborg_teleport_in_0
+    21300002: cyborg_teleport_in_1
+    21300004: cyborg_teleport_in_2
+    21300006: cyborg_teleport_in_3
+    21300008: cyborg_teleport_in_4
+    21300010: cyborg_teleport_in_5
+    21300012: cyborg_teleport_in_6
+    21300014: cyborg_teleport_in_7
+    21300016: cyborg_teleport_in_8
+    21300018: cyborg_teleport_in_9
+    21300020: cyborg_teleport_in_10
+    21300022: cyborg_teleport_in_11
+    21300024: cyborg_teleport_in_12
+    21300026: cyborg_teleport_in_13
+    21300028: cyborg_teleport_in_14
+    21300030: cyborg_teleport_in_15
+    21300032: cyborg_teleport_in_16
+    21300034: cyborg_teleport_in_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cyborg_teleport_in_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 927
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 927
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 927
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 927
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 927
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 830
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 830
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 830
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_8
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 830
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_9
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 830
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 733
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 733
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 733
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_13
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 733
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 733
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 636
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cyborg_teleport_in_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 636
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

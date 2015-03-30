@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: df551a0214aaea24f85e95bfa005d20e
+timeCreated: 1427707811
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cracker_jump_0
+    21300002: cracker_jump_1
+    21300004: cracker_jump_2
+    21300006: cracker_jump_3
+    21300008: cracker_jump_4
+    21300010: cracker_jump_5
+    21300012: cracker_jump_6
+    21300014: cracker_jump_7
+    21300016: cracker_jump_8
+    21300018: cracker_jump_9
+    21300020: cracker_jump_10
+    21300022: cracker_jump_11
+    21300024: cracker_jump_12
+    21300026: cracker_jump_13
+    21300028: cracker_jump_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cracker_jump_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 399
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 399
+        width: 62
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 400
+        width: 62
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_3
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 404
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 407
+        width: 62
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 411
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 301
+        width: 63
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 305
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 309
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_9
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 300
+        width: 61
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 292
+        width: 59
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_11
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 289
+        width: 61
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 173
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_13
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 172
+        width: 61
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cracker_jump_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 171
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

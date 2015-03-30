@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 8089eed5121f16f46a19d566ad7c08ac
+timeCreated: 1427711183
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: poor_woman_walk_0
+    21300002: poor_woman_walk_1
+    21300004: poor_woman_walk_2
+    21300006: poor_woman_walk_3
+    21300008: poor_woman_walk_4
+    21300010: poor_woman_walk_5
+    21300012: poor_woman_walk_6
+    21300014: poor_woman_walk_7
+    21300016: poor_woman_walk_8
+    21300018: poor_woman_walk_9
+    21300020: poor_woman_walk_10
+    21300022: poor_woman_walk_11
+    21300024: poor_woman_walk_12
+    21300026: poor_woman_walk_13
+    21300028: poor_woman_walk_14
+    21300030: poor_woman_walk_15
+    21300032: poor_woman_walk_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: poor_woman_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 419
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 419
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 419
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 419
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 326
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 326
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 326
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 233
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 233
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 233
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_11
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 233
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 140
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_14
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 140
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_15
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 140
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_walk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

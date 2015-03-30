@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 8388ba1d00aff7e4689adc1f5b17f2bc
+timeCreated: 1427707135
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: convic_burn_0
+    21300002: convic_burn_1
+    21300004: convic_burn_2
+    21300006: convic_burn_3
+    21300008: convic_burn_4
+    21300010: convic_burn_5
+    21300012: convic_burn_6
+    21300014: convic_burn_7
+    21300016: convic_burn_8
+    21300018: convic_burn_9
+    21300020: convic_burn_10
+    21300022: convic_burn_11
+    21300024: convic_burn_12
+    21300026: convic_burn_13
+    21300028: convic_burn_14
+    21300030: convic_burn_15
+    21300032: convic_burn_16
+    21300034: convic_burn_17
+    21300036: convic_burn_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: convic_burn_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 424
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 424
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 424
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 424
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 424
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 336
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 336
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 336
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 336
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_11
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 336
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 248
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 248
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 248
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_16
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 248
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_17
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 248
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: convic_burn_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 81
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

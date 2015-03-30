@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 2acb6a8740fc948479484f66f136ab49
+timeCreated: 1427711992
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: stoner_jump_0
+    21300002: stoner_jump_1
+    21300004: stoner_jump_2
+    21300006: stoner_jump_3
+    21300008: stoner_jump_4
+    21300010: stoner_jump_5
+    21300012: stoner_jump_6
+    21300014: stoner_jump_7
+    21300016: stoner_jump_8
+    21300018: stoner_jump_9
+    21300020: stoner_jump_10
+    21300022: stoner_jump_11
+    21300024: stoner_jump_12
+    21300026: stoner_jump_13
+    21300028: stoner_jump_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: stoner_jump_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 406
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 407
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 407
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 411
+        width: 62
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 414
+        width: 59
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 417
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_6
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 421
+        width: 61
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 315
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 318
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 311
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 304
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 303
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_12
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 297
+        width: 58
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 297
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_jump_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 188
+        width: 59
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

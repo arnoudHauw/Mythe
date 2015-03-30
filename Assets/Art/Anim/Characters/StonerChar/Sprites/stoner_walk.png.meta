@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 22bd78e37f4e20f4abd30a3380ff4338
+timeCreated: 1427712104
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: stoner_walk_0
+    21300002: stoner_walk_1
+    21300004: stoner_walk_2
+    21300006: stoner_walk_3
+    21300008: stoner_walk_4
+    21300010: stoner_walk_5
+    21300012: stoner_walk_6
+    21300014: stoner_walk_7
+    21300016: stoner_walk_8
+    21300018: stoner_walk_9
+    21300020: stoner_walk_10
+    21300022: stoner_walk_11
+    21300024: stoner_walk_12
+    21300026: stoner_walk_13
+    21300028: stoner_walk_14
+    21300030: stoner_walk_15
+    21300032: stoner_walk_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: stoner_walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 417
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 417
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 417
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 417
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 322
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 322
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 322
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 227
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_10
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 227
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_11
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 227
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 132
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 132
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_15
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 132
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stoner_walk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: b3ab75414219c2a4cac19ef5292a467c
+timeCreated: 1427699606
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: poor_woman_idle_0
+    21300002: poor_woman_idle_1
+    21300004: poor_woman_idle_2
+    21300006: poor_woman_idle_3
+    21300008: poor_woman_idle_4
+    21300010: poor_woman_idle_5
+    21300012: poor_woman_idle_6
+    21300014: poor_woman_idle_7
+    21300016: poor_woman_idle_8
+    21300018: poor_woman_idle_9
+    21300020: poor_woman_idle_10
+    21300022: poor_woman_idle_11
+    21300024: poor_woman_idle_12
+    21300026: poor_woman_idle_13
+    21300028: poor_woman_idle_14
+    21300030: poor_woman_idle_15
+    21300032: poor_woman_idle_16
+    21300034: poor_woman_idle_17
+    21300036: poor_woman_idle_18
+    21300038: poor_woman_idle_19
+    21300040: poor_woman_idle_20
+    21300042: poor_woman_idle_21
+    21300044: poor_woman_idle_22
+    21300046: poor_woman_idle_23
+    21300048: poor_woman_idle_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: poor_woman_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 426
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 426
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 426
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 426
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 426
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 426
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 426
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 340
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_10
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 340
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_11
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 340
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_12
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 340
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_13
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 340
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_14
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 340
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 340
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 254
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_18
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 254
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_19
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 254
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_20
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 254
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 254
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_22
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 254
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_23
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 254
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: poor_woman_idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
