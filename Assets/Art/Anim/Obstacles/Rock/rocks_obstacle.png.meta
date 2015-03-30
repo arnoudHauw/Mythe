@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 7c57f1df751968d4f8651b1a1f1e899d
+timeCreated: 1427658163
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rocks_obstacle_0
+    21300002: rocks_obstacle_1
+    21300004: rocks_obstacle_2
+    21300006: rocks_obstacle_3
+    21300008: rocks_obstacle_4
+    21300010: rocks_obstacle_5
+    21300012: rocks_obstacle_6
+    21300014: rocks_obstacle_7
+    21300016: rocks_obstacle_8
+    21300018: rocks_obstacle_9
+    21300020: rocks_obstacle_10
+    21300022: rocks_obstacle_11
+    21300024: rocks_obstacle_12
+    21300026: rocks_obstacle_13
+    21300028: rocks_obstacle_14
+    21300030: rocks_obstacle_15
+    21300032: rocks_obstacle_16
+    21300034: rocks_obstacle_17
+    21300036: rocks_obstacle_18
+    21300038: rocks_obstacle_19
+    21300040: rocks_obstacle_20
+    21300042: rocks_obstacle_21
+    21300044: rocks_obstacle_22
+    21300046: rocks_obstacle_23
+    21300048: rocks_obstacle_24
+    21300050: rocks_obstacle_25
+    21300052: rocks_obstacle_26
+    21300054: rocks_obstacle_27
+    21300056: rocks_obstacle_28
+    21300058: rocks_obstacle_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rocks_obstacle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 959
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 959
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 959
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 959
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 959
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 959
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 894
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_7
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 894
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 894
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_9
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 894
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 894
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_11
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 894
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 829
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 829
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 829
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_15
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 829
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_16
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 829
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_17
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 829
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 764
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_20
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 764
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_21
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 764
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_22
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 764
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_23
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 764
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 699
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_25
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 699
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 699
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_27
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 699
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_28
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 699
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rocks_obstacle_29
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 699
+        width: 165
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

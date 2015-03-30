@@ -243,6 +243,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedcap: 25
   speed: 0
+  Character: {fileID: 0}
+  WalkClip: {fileID: 0}
+  JumpClip: {fileID: 0}
 --- !u!212 &21283648
 SpriteRenderer:
   m_ObjectHideFlags: 1
