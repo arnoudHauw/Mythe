@@ -9,9 +9,7 @@ public class CameraController : MonoBehaviour
 
     void Start() 
     {
-        Debug.Log(turnSpeed);
         turnSpeed = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<SlidePreview>().turnSpeed * 1.5f;
-        Debug.Log(turnSpeed);
     }
 
 

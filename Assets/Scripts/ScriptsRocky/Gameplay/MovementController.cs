@@ -11,7 +11,13 @@ public class MovementController : MonoBehaviour
     float cooldown = 0;
     float cooldowndelay = 1;
     private const string ISWALKING = "IsWalking";
-    void Start() 
+    /*void Start() 
+    {
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
+    }*/
+
+    void OnEnable()
     {
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
