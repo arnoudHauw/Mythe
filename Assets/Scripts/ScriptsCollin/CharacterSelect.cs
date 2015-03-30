@@ -9,12 +9,11 @@ public class CharacterSelect : MonoBehaviour
 
     private SelectedCharacter selChar;
 
-    public GameObject persistentObject;
     // Use this for initialization
     void Start()
     {
         charSlideScript = chars.GetComponent<CharacterSLide>();
-        selChar = persistentObject.GetComponent<SelectedCharacter>();
+        selChar = GameObject.FindGameObjectWithTag("PersistentObject").GetComponent<SelectedCharacter>();
     }
 
     // Update is called once per frame
