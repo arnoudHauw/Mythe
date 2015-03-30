@@ -43,7 +43,7 @@ public class TorchScript : MonoBehaviour
         {
             torchSwapVal = -torchDamnSpeed;
         }
-        else if (playerLight.GetComponent<Light>().intensity < maxTorchSize - torchSwapRange)
+        else if (playerLight.GetComponent<Light>().intensity < maxTorchSize - torchSwapRange && playerLight.GetComponent<Light>().intensity > 2)
         {
             torchSwapVal = torchDamnSpeed;
         }
