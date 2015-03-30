@@ -61,7 +61,8 @@ public class TorchScript : MonoBehaviour
         if(other.gameObject.tag == "Destroyable")
         {
             torchHealth -= 10F;
-            Destroy(other.gameObject);
+            other.GetComponent<Animator>().SetTrigger("StartAnim");
+            //Destroy(other.gameObject);
         }
         else if(other.gameObject.tag == "Barrel")
         {
