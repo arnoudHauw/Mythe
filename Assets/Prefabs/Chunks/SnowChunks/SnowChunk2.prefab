@@ -12,6 +12,7 @@ GameObject:
   - 95: {fileID: 9520502}
   - 114: {fileID: 11471168}
   - 61: {fileID: 6187854}
+  - 114: {fileID: 11448138}
   m_Layer: 0
   m_Name: BurnObstacleIce 5
   m_TagString: Destroyable
@@ -115,6 +116,7 @@ GameObject:
   - 95: {fileID: 9504116}
   - 114: {fileID: 11429766}
   - 61: {fileID: 6126160}
+  - 114: {fileID: 11490016}
   m_Layer: 0
   m_Name: BurnObstacleIce 7
   m_TagString: Destroyable
@@ -166,6 +168,7 @@ GameObject:
   - 95: {fileID: 9559598}
   - 114: {fileID: 11429342}
   - 61: {fileID: 6183272}
+  - 114: {fileID: 11458256}
   m_Layer: 0
   m_Name: BurnObstacleIce 6
   m_TagString: Destroyable
@@ -217,6 +220,7 @@ GameObject:
   - 95: {fileID: 9539748}
   - 114: {fileID: 11417916}
   - 61: {fileID: 6139316}
+  - 114: {fileID: 11429852}
   m_Layer: 0
   m_Name: BurnObstacleIce 8
   m_TagString: Destroyable
@@ -675,7 +679,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -49.3935928, y: -10.7453899, z: 0}
+  m_LocalPosition: {x: 318.648438, y: 386.180939, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 429306}
@@ -1162,6 +1166,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722d749812934514789a49c930fe596a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11429852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7eebb62d3205ce4fbb03ea4b13db64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 2
 --- !u!114 &11436786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1174,6 +1190,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 1
+--- !u!114 &11448138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7eebb62d3205ce4fbb03ea4b13db64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 2
+--- !u!114 &11458256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 135034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7eebb62d3205ce4fbb03ea4b13db64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 2
 --- !u!114 &11461264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1197,6 +1237,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722d749812934514789a49c930fe596a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11490016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7eebb62d3205ce4fbb03ea4b13db64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 2
 --- !u!114 &11495096
 MonoBehaviour:
   m_ObjectHideFlags: 1

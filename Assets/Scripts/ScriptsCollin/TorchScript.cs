@@ -38,7 +38,16 @@ public class TorchScript : MonoBehaviour
             Application.LoadLevel(2);
             //Destroy(this.gameObject);
         }
+        if (8f / 100f * torchHealth>2)
+        {
+            playerLight.GetComponent<Light>().intensity = 8f/100f*torchHealth;
+        }
+        else
+        {
+            playerLight.GetComponent<Light>().intensity = 2;
+        }
         
+        /*
         if(playerLight.GetComponent<Light>().intensity > maxTorchSize && playerLight.GetComponent<Light>().intensity > 2)
         {
             torchSwapVal = -torchDamnSpeed;
@@ -53,6 +62,7 @@ public class TorchScript : MonoBehaviour
         playerLight.GetComponent<Light>().intensity += torchSwapVal;
 
         maxTorchSize = lightPercentage * torchHealth;
+        */
 
     }
 
