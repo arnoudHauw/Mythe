@@ -6,7 +6,8 @@ public enum BackgroundType
 {
     Snow,
     Temple,
-    Forest
+    Forest,
+    Rock
 }
 public class BackGroundSpawn : MonoBehaviour
 {
@@ -14,9 +15,10 @@ public class BackGroundSpawn : MonoBehaviour
     public Transform spawn;
 
     public Vector3 spawnPosition;
+    public GameObject[] SnowBackgrounds;
+    public GameObject[] RockBackgrounds;
     public GameObject[] templeBackgrounds;
     public GameObject[] forestBackgrounds;
-    public GameObject[] SnowBackgrounds;
 
 
 
@@ -41,6 +43,7 @@ public class BackGroundSpawn : MonoBehaviour
         map.Add(BackgroundType.Snow, SnowBackgrounds);
         map.Add(BackgroundType.Temple, templeBackgrounds);
         map.Add(BackgroundType.Forest, forestBackgrounds);
+        map.Add(BackgroundType.Rock, RockBackgrounds);
         spawnPosition = spawn.position;
     }
 
