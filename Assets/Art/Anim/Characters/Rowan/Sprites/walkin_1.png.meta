@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 4a94052015359f543a3656973b5b6b46
+timeCreated: 1427966104
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: walkin_1_0
+    21300002: walkin_1_1
+    21300004: walkin_1_2
+    21300006: walkin_1_3
+    21300008: walkin_1_4
+    21300010: walkin_1_5
+    21300012: walkin_1_6
+    21300014: walkin_1_7
+    21300016: walkin_1_8
+    21300018: walkin_1_9
+    21300020: walkin_1_10
+    21300022: walkin_1_11
+    21300024: walkin_1_12
+    21300026: walkin_1_13
+    21300028: walkin_1_14
+    21300030: walkin_1_15
+    21300032: walkin_1_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: walkin_1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 421
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 421
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 422
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 427
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 428
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 427
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 422
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 64
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 330
+        width: 63
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 330
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 330
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 336
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 336
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 335
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 237
+        width: 63
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: walkin_1_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 237
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

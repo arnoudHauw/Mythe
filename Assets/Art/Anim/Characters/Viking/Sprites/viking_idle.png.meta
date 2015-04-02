@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: f87ef6e2bdfb84641b6cc0eb751c29f5
-timeCreated: 1427969045
+guid: 371f798123f42fa46b78f355ade88060
+timeCreated: 1427962196
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: pro_idle_0
-    21300002: pro_idle_1
-    21300004: pro_idle_2
-    21300006: pro_idle_3
-    21300008: pro_idle_4
-    21300010: pro_idle_5
-    21300012: pro_idle_6
-    21300014: pro_idle_7
-    21300016: pro_idle_8
-    21300018: pro_idle_9
-    21300020: pro_idle_10
-    21300022: pro_idle_11
-    21300024: pro_idle_12
-    21300026: pro_idle_13
-    21300028: pro_idle_14
-    21300030: pro_idle_15
-    21300032: pro_idle_16
-    21300034: pro_idle_17
-    21300036: pro_idle_18
-    21300038: pro_idle_19
-    21300040: pro_idle_20
-    21300042: pro_idle_21
-    21300044: pro_idle_22
-    21300046: pro_idle_23
-    21300048: pro_idle_24
+    21300000: viking_idle_0
+    21300002: viking_idle_1
+    21300004: viking_idle_2
+    21300006: viking_idle_3
+    21300008: viking_idle_4
+    21300010: viking_idle_5
+    21300012: viking_idle_6
+    21300014: viking_idle_7
+    21300016: viking_idle_8
+    21300018: viking_idle_9
+    21300020: viking_idle_10
+    21300022: viking_idle_11
+    21300024: viking_idle_12
+    21300026: viking_idle_13
+    21300028: viking_idle_14
+    21300030: viking_idle_15
+    21300032: viking_idle_16
+    21300034: viking_idle_17
+    21300036: viking_idle_18
+    21300038: viking_idle_19
+    21300040: viking_idle_20
+    21300042: viking_idle_21
+    21300044: viking_idle_22
+    21300046: viking_idle_23
+    21300048: viking_idle_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -74,253 +74,253 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: pro_idle_0
+    - name: viking_idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 428
-        width: 57
-        height: 84
+        y: 416
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_1
+    - name: viking_idle_1
       rect:
         serializedVersion: 2
-        x: 57
-        y: 428
-        width: 57
-        height: 84
+        x: 64
+        y: 416
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_2
+    - name: viking_idle_2
       rect:
         serializedVersion: 2
-        x: 114
-        y: 428
-        width: 57
-        height: 84
+        x: 128
+        y: 416
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_3
+    - name: viking_idle_3
       rect:
         serializedVersion: 2
-        x: 171
-        y: 428
-        width: 57
-        height: 84
+        x: 192
+        y: 416
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_4
+    - name: viking_idle_4
       rect:
         serializedVersion: 2
-        x: 228
-        y: 428
-        width: 57
-        height: 84
+        x: 256
+        y: 416
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_5
+    - name: viking_idle_5
       rect:
         serializedVersion: 2
-        x: 285
-        y: 428
-        width: 57
-        height: 84
+        x: 320
+        y: 416
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_6
+    - name: viking_idle_6
       rect:
         serializedVersion: 2
-        x: 342
-        y: 428
-        width: 57
-        height: 84
+        x: 384
+        y: 416
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_7
+    - name: viking_idle_7
       rect:
         serializedVersion: 2
-        x: 399
-        y: 428
-        width: 57
-        height: 84
+        x: 448
+        y: 416
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 344
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_9
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 344
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_10
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 344
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_11
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 344
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_12
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 344
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_13
-      rect:
-        serializedVersion: 2
-        x: 285
-        y: 344
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_14
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 344
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_15
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 344
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_16
+    - name: viking_idle_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 260
-        width: 57
-        height: 84
+        y: 320
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_17
+    - name: viking_idle_9
       rect:
         serializedVersion: 2
-        x: 57
-        y: 260
-        width: 57
-        height: 84
+        x: 64
+        y: 320
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_18
+    - name: viking_idle_10
       rect:
         serializedVersion: 2
-        x: 114
-        y: 260
-        width: 57
-        height: 84
+        x: 128
+        y: 320
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_19
+    - name: viking_idle_11
       rect:
         serializedVersion: 2
-        x: 171
-        y: 260
-        width: 57
-        height: 84
+        x: 192
+        y: 320
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_20
+    - name: viking_idle_12
       rect:
         serializedVersion: 2
-        x: 228
-        y: 260
-        width: 57
-        height: 84
+        x: 256
+        y: 320
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_21
+    - name: viking_idle_13
       rect:
         serializedVersion: 2
-        x: 285
-        y: 260
-        width: 57
-        height: 84
+        x: 320
+        y: 320
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_22
+    - name: viking_idle_14
       rect:
         serializedVersion: 2
-        x: 342
-        y: 260
-        width: 57
-        height: 84
+        x: 384
+        y: 320
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_23
+    - name: viking_idle_15
       rect:
         serializedVersion: 2
-        x: 399
-        y: 260
-        width: 57
-        height: 84
+        x: 448
+        y: 320
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_24
+    - name: viking_idle_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 176
-        width: 57
-        height: 84
+        y: 224
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_idle_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_idle_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_idle_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_idle_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_idle_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_idle_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_idle_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

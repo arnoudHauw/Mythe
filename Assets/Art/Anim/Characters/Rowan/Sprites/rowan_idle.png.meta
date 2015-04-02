@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: f87ef6e2bdfb84641b6cc0eb751c29f5
-timeCreated: 1427969045
+guid: 3d046724bbee8de46bb69d29f9cdde62
+timeCreated: 1427966076
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: pro_idle_0
-    21300002: pro_idle_1
-    21300004: pro_idle_2
-    21300006: pro_idle_3
-    21300008: pro_idle_4
-    21300010: pro_idle_5
-    21300012: pro_idle_6
-    21300014: pro_idle_7
-    21300016: pro_idle_8
-    21300018: pro_idle_9
-    21300020: pro_idle_10
-    21300022: pro_idle_11
-    21300024: pro_idle_12
-    21300026: pro_idle_13
-    21300028: pro_idle_14
-    21300030: pro_idle_15
-    21300032: pro_idle_16
-    21300034: pro_idle_17
-    21300036: pro_idle_18
-    21300038: pro_idle_19
-    21300040: pro_idle_20
-    21300042: pro_idle_21
-    21300044: pro_idle_22
-    21300046: pro_idle_23
-    21300048: pro_idle_24
+    21300000: rowan_idle_0
+    21300002: rowan_idle_1
+    21300004: rowan_idle_2
+    21300006: rowan_idle_3
+    21300008: rowan_idle_4
+    21300010: rowan_idle_5
+    21300012: rowan_idle_6
+    21300014: rowan_idle_7
+    21300016: rowan_idle_8
+    21300018: rowan_idle_9
+    21300020: rowan_idle_10
+    21300022: rowan_idle_11
+    21300024: rowan_idle_12
+    21300026: rowan_idle_13
+    21300028: rowan_idle_14
+    21300030: rowan_idle_15
+    21300032: rowan_idle_16
+    21300034: rowan_idle_17
+    21300036: rowan_idle_18
+    21300038: rowan_idle_19
+    21300040: rowan_idle_20
+    21300042: rowan_idle_21
+    21300044: rowan_idle_22
+    21300046: rowan_idle_23
+    21300048: rowan_idle_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -74,253 +74,253 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: pro_idle_0
+    - name: rowan_idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 428
-        width: 57
-        height: 84
+        y: 427
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_1
+    - name: rowan_idle_1
       rect:
         serializedVersion: 2
-        x: 57
-        y: 428
-        width: 57
-        height: 84
+        x: 66
+        y: 427
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_2
+    - name: rowan_idle_2
       rect:
         serializedVersion: 2
-        x: 114
-        y: 428
-        width: 57
-        height: 84
+        x: 132
+        y: 427
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_3
+    - name: rowan_idle_3
       rect:
         serializedVersion: 2
-        x: 171
-        y: 428
-        width: 57
-        height: 84
+        x: 198
+        y: 427
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_4
+    - name: rowan_idle_4
       rect:
         serializedVersion: 2
-        x: 228
-        y: 428
-        width: 57
-        height: 84
+        x: 264
+        y: 427
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_5
+    - name: rowan_idle_5
       rect:
         serializedVersion: 2
-        x: 285
-        y: 428
-        width: 57
-        height: 84
+        x: 330
+        y: 427
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_6
+    - name: rowan_idle_6
       rect:
         serializedVersion: 2
-        x: 342
-        y: 428
-        width: 57
-        height: 84
+        x: 396
+        y: 427
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_7
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 428
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_8
+    - name: rowan_idle_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 344
-        width: 57
-        height: 84
+        y: 342
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_9
+    - name: rowan_idle_8
       rect:
         serializedVersion: 2
-        x: 57
-        y: 344
-        width: 57
-        height: 84
+        x: 66
+        y: 342
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_10
+    - name: rowan_idle_9
       rect:
         serializedVersion: 2
-        x: 114
-        y: 344
-        width: 57
-        height: 84
+        x: 132
+        y: 342
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_11
+    - name: rowan_idle_10
       rect:
         serializedVersion: 2
-        x: 171
-        y: 344
-        width: 57
-        height: 84
+        x: 198
+        y: 342
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_12
+    - name: rowan_idle_11
       rect:
         serializedVersion: 2
-        x: 228
-        y: 344
-        width: 57
-        height: 84
+        x: 264
+        y: 342
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_13
+    - name: rowan_idle_12
       rect:
         serializedVersion: 2
-        x: 285
-        y: 344
-        width: 57
-        height: 84
+        x: 330
+        y: 342
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_14
+    - name: rowan_idle_13
       rect:
         serializedVersion: 2
-        x: 342
-        y: 344
-        width: 57
-        height: 84
+        x: 396
+        y: 342
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_15
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 344
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_16
+    - name: rowan_idle_14
       rect:
         serializedVersion: 2
         x: 0
-        y: 260
-        width: 57
-        height: 84
+        y: 257
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_17
+    - name: rowan_idle_15
       rect:
         serializedVersion: 2
-        x: 57
-        y: 260
-        width: 57
-        height: 84
+        x: 66
+        y: 257
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_18
+    - name: rowan_idle_16
       rect:
         serializedVersion: 2
-        x: 114
-        y: 260
-        width: 57
-        height: 84
+        x: 132
+        y: 257
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_19
+    - name: rowan_idle_17
       rect:
         serializedVersion: 2
-        x: 171
-        y: 260
-        width: 57
-        height: 84
+        x: 198
+        y: 257
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_20
+    - name: rowan_idle_18
       rect:
         serializedVersion: 2
-        x: 228
-        y: 260
-        width: 57
-        height: 84
+        x: 264
+        y: 257
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_21
+    - name: rowan_idle_19
       rect:
         serializedVersion: 2
-        x: 285
-        y: 260
-        width: 57
-        height: 84
+        x: 330
+        y: 257
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_22
+    - name: rowan_idle_20
       rect:
         serializedVersion: 2
-        x: 342
-        y: 260
-        width: 57
-        height: 84
+        x: 396
+        y: 257
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_23
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 260
-        width: 57
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pro_idle_24
+    - name: rowan_idle_21
       rect:
         serializedVersion: 2
         x: 0
-        y: 176
-        width: 57
-        height: 84
+        y: 172
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowan_idle_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 172
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowan_idle_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 172
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rowan_idle_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 172
+        width: 66
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 6fba37606130d92458521ba5d287a2f2
+timeCreated: 1427962210
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: viking_jump_0
+    21300002: viking_jump_1
+    21300004: viking_jump_2
+    21300006: viking_jump_3
+    21300008: viking_jump_4
+    21300010: viking_jump_5
+    21300012: viking_jump_6
+    21300014: viking_jump_7
+    21300016: viking_jump_8
+    21300018: viking_jump_9
+    21300020: viking_jump_10
+    21300022: viking_jump_11
+    21300024: viking_jump_12
+    21300026: viking_jump_13
+    21300028: viking_jump_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 60
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: viking_jump_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 398
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 399
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 403
+        width: 65
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_3
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 406
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 410
+        width: 64
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 412
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 300
+        width: 65
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_7
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 303
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 306
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_9
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 299
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 291
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 288
+        width: 59
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 168
+        width: 59
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 168
+        width: 60
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: viking_jump_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 168
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

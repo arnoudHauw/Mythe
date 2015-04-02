@@ -47,7 +47,7 @@ public class CharacterSLide : MonoBehaviour
 
     public void slideLeft()
     {
-        if(moving != true && this.transform.position.x > -12)
+        if(moving != true && this.transform.position.x > -15)
         {
             movingLeft = true;
             moveDirection.x = -slideSpeed;
@@ -58,7 +58,7 @@ public class CharacterSLide : MonoBehaviour
     
     public void slideRight()
     {
-        if(moving != true && this.transform.position.x < 12)
+        if(moving != true && this.transform.position.x < 15)
         {
             movingLeft = false;
             moveDirection.x = slideSpeed;
@@ -69,9 +69,13 @@ public class CharacterSLide : MonoBehaviour
 
     public GameObject getSelectedChar()
     {
-        if (this.transform.position.x == -12)
+        if (this.transform.position.x == -15)
         {
-            return null;
+            return Allchars[10];
+        }
+        else if (this.transform.position.x == -12)
+        {
+            return Allchars[8];
         }
         else if (this.transform.position.x == -9)
         {
@@ -104,6 +108,10 @@ public class CharacterSLide : MonoBehaviour
         else if (this.transform.position.x == 12)
         {
             return Allchars[0];
+        }
+        else if(this.transform.position.x == 15)
+        {
+            return Allchars[9];
         }
         else
         {
