@@ -166,6 +166,18 @@ Prefab:
       propertyPath: speedcap
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 8265570, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11413354, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
+      propertyPath: WalkClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11413354, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
+      propertyPath: JumpClip
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
   m_IsPrefabParent: 0
@@ -304,7 +316,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.5
+  orthographic size: 7.51000023
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -323,7 +335,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 327825706}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -1.71000004, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2011397660}
@@ -480,7 +492,7 @@ Transform:
   m_GameObject: {fileID: 632229051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 3, y: 3, z: 2.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -696,7 +708,7 @@ GameObject:
   - 4: {fileID: 1310387361}
   - 61: {fileID: 1310387362}
   m_Layer: 0
-  m_Name: UpperWall 1
+  m_Name: lowerWal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -724,7 +736,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 8}
+  m_Offset: {x: 0, y: 8.43999958}
   serializedVersion: 2
   m_Size: {x: 1.38999999, y: 1}
 --- !u!1 &1404959135
@@ -819,7 +831,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 8}
+  m_Offset: {x: 0, y: 7.11000013}
   serializedVersion: 2
   m_Size: {x: 1.38999999, y: 1}
 --- !u!114 &1502179663

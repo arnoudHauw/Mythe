@@ -11,6 +11,12 @@ public class FlameBarController : MonoBehaviour {
         animator = GetComponent<Animator>();
         torch = GameObject.FindGameObjectWithTag("Player").GetComponent<TorchScript>();
 	}
+
+    void OnEnable()
+    {
+        animator = GetComponent<Animator>();
+        torch = GameObject.FindGameObjectWithTag("Player").GetComponent<TorchScript>();
+    }
 	
 	// Update is called once per frame
 	void Update () 

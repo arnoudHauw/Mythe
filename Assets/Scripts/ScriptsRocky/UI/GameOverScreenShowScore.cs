@@ -13,4 +13,10 @@ public class GameOverScreenShowScore : MonoBehaviour {
         score = GameObject.FindGameObjectWithTag("DontDestroyScore").GetComponent<DontDestroyScore>().score;
         scoreText.text = baseText + score.ToString();
 	}
+
+    void OnEnable()
+    {
+        score = GameObject.FindGameObjectWithTag("DontDestroyScore").GetComponent<DontDestroyScore>().score;
+        scoreText.text = baseText + score.ToString();
+    }
 }
