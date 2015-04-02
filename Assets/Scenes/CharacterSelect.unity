@@ -110,7 +110,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 21562495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -.00999981165, z: 0}
+  m_LocalPosition: {x: 0, y: -.00999999978, z: 0}
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children: []
   m_Father: {fileID: 365523702}
@@ -806,6 +806,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slideSpeed: .0500000007
   moveDistance: {x: 0, y: 0, z: 0}
+  Allchars:
+  - {fileID: 175910, guid: 1a3e1e8748931b94ea61e3bdf0b19686, type: 2}
+  - {fileID: 101628, guid: b88f1ad345593ab418707c4084b83fb8, type: 2}
+  - {fileID: 163404, guid: 5df979bb46dd4f64c828d9447bcc1894, type: 2}
+  - {fileID: 118398, guid: 86b1d19d84ef1984f96ba1d7316e8ab4, type: 2}
+  - {fileID: 122850, guid: 8b29f4ac40ae6bb4a8c38674d7c69570, type: 2}
+  - {fileID: 100610, guid: 722eca1b261df4e4180a165ffa5a5bc1, type: 2}
+  - {fileID: 170408, guid: 5214a92f05c96b245a9a62364ea7c1cd, type: 2}
+  - {fileID: 180150, guid: a248faff3e1e8a2479ac2899e8610eb9, type: 2}
 --- !u!1 &657114053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,7 +1588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a049126261ada64898c7d77400946e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selChar: 0
+  selChar: {fileID: 0}
 --- !u!4 &1659126772
 Transform:
   m_ObjectHideFlags: 0
