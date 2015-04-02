@@ -75,13 +75,13 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.MediaCollege.Fotia
-  bundleVersion: 1.0
+  bundleVersion: 1.2
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
   productGUID: 60b5019309052d441916cf4b6630da52
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 3
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -122,7 +122,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   AndroidKeystoreName: D:/Github/Mythe/Fotia.keystore
-  AndroidKeyaliasName: 
+  AndroidKeyaliasName: fotia
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   androidEnableBanner: 1

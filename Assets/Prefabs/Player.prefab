@@ -16,6 +16,8 @@ GameObject:
   - 114: {fileID: 11456308}
   - 114: {fileID: 11494014}
   - 82: {fileID: 8265570}
+  - 114: {fileID: 11444280}
+  - 114: {fileID: 11476006}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -47,7 +49,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalPosition: {x: -433.153503, y: 354.049713, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 462526}
@@ -109,7 +111,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 60095221ccfd3d145b9671f3dc3f6991, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -201,8 +203,19 @@ MonoBehaviour:
   moveDirection: {x: 0, y: 0}
   mainCamera: {fileID: 0}
   Char: {fileID: 134654}
-  WalkClip: {fileID: 8300000, guid: 3b0e4c9df7e67934d98d6158ea38b220, type: 3}
-  JumpClip: {fileID: 8300000, guid: 60095221ccfd3d145b9671f3dc3f6991, type: 3}
+  WalkClip: {fileID: 0}
+  JumpClip: {fileID: 0}
+--- !u!114 &11444280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258d38c764c88e4c9c62fb2762b1e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11456308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -212,6 +225,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0dfb449b9558868419a251d45098efee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11476006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc82f3b60307804da82d74835d33ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &11481440
@@ -241,9 +265,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeaaf52bb4bc5734893fbafc024c0e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedcap: 25
+  speedcap: 15
   speed: 0
-  Character: {fileID: 0}
+  Character: {fileID: 134654}
   WalkClip: {fileID: 0}
   JumpClip: {fileID: 0}
 --- !u!212 &21283648
@@ -269,7 +293,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b38675b6bc41a054a93caee21555cf90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000

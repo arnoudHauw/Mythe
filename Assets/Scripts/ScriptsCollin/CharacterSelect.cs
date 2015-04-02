@@ -35,8 +35,7 @@ public class CharacterSelect : MonoBehaviour
         else if(gameObject.name == "Confirm")
         {
             selChar.selChar = charSlideScript.getSelectedChar();
-            Application.LoadLevel(1);
-            Debug.Log("Yolo");
+            Application.LoadLevel(0);
         }
     }
 }

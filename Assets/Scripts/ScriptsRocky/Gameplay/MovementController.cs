@@ -5,7 +5,7 @@ public class MovementController : MonoBehaviour
 {
     public int joyStickId = -1;
     //Touch touch1;
-    PlayerMovement playerMovement;
+    public PlayerMovement playerMovement;
     public GameObject mainCamera;
     public GameObject Char;
     float cooldown = 0;

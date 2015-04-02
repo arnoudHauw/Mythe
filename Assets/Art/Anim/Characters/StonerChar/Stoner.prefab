@@ -7,9 +7,23 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 413388}
   - 108: {fileID: 10852992}
   - 114: {fileID: 11498372}
+=======
+  - 4: {fileID: 489414}
+  - 33: {fileID: 3328726}
+  - 50: {fileID: 5096832}
+  - 61: {fileID: 6108800}
+  - 114: {fileID: 11438292}
+  - 114: {fileID: 11492058}
+  - 114: {fileID: 11440666}
+  - 114: {fileID: 11459868}
+  - 82: {fileID: 8239034}
+  - 114: {fileID: 11461014}
+  - 114: {fileID: 11483058}
+>>>>>>> origin/master
   m_Layer: 0
   m_Name: PlayerLight
   m_TagString: Untagged
@@ -88,7 +102,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 7.65999985, y: -.379999995, z: 0}
+=======
+  m_LocalPosition: {x: -429.165344, y: 350.642029, z: 0}
+>>>>>>> origin/master
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 413388}
@@ -139,7 +157,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 60095221ccfd3d145b9671f3dc3f6991, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -308,7 +326,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dfb449b9558868419a251d45098efee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!114 &11498372
+=======
+  speedcap: 15
+  speed: 0
+  Character: {fileID: 158646}
+  WalkClip: {fileID: 0}
+  JumpClip: {fileID: 0}
+--- !u!114 &11461014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258d38c764c88e4c9c62fb2762b1e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11483058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc82f3b60307804da82d74835d33ea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11492058
+>>>>>>> origin/master
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -319,8 +368,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14a1d339d87d2c949ab8f37823a0bd6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   target: {fileID: 146890}
 --- !u!212 &21234190
+=======
+  slideMultiplier: 50
+  moveDirection: {x: 0, y: 0}
+  mainCamera: {fileID: 0}
+  Char: {fileID: 158646}
+  WalkClip: {fileID: 0}
+  JumpClip: {fileID: 0}
+--- !u!212 &21203822
+>>>>>>> origin/master
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -343,8 +402,13 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 32b5af05a09a6bc41a53401e999a9cb4, type: 3}
+=======
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 50282668cce75094a8b81e46b84c157c, type: 3}
+>>>>>>> origin/master
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:

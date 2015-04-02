@@ -16,6 +16,8 @@ GameObject:
   - 114: {fileID: 11482032}
   - 114: {fileID: 11418998}
   - 82: {fileID: 8294332}
+  - 114: {fileID: 11419612}
+  - 114: {fileID: 11457914}
   m_Layer: 0
   m_Name: Convic
   m_TagString: Player
@@ -76,7 +78,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 170408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -434.033478, y: 351.802917, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 480656}
@@ -139,7 +141,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 60095221ccfd3d145b9671f3dc3f6991, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -263,8 +265,8 @@ MonoBehaviour:
   moveDirection: {x: 0, y: 0}
   mainCamera: {fileID: 0}
   Char: {fileID: 0}
-  WalkClip: {fileID: 8300000, guid: 3b0e4c9df7e67934d98d6158ea38b220, type: 3}
-  JumpClip: {fileID: 8300000, guid: 60095221ccfd3d145b9671f3dc3f6991, type: 3}
+  WalkClip: {fileID: 0}
+  JumpClip: {fileID: 0}
 --- !u!114 &11418998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -276,16 +278,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeaaf52bb4bc5734893fbafc024c0e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedcap: 25
+  speedcap: 15
   speed: 0
-  Character: {fileID: 0}
+  Character: {fileID: 192942}
   WalkClip: {fileID: 0}
   JumpClip: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &11477264
+=======
+--- !u!114 &11419612
+>>>>>>> origin/master
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 191014}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -293,6 +300,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 170408}
+=======
+  m_GameObject: {fileID: 170408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9258d38c764c88e4c9c62fb2762b1e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11457914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc82f3b60307804da82d74835d33ea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> origin/master
 --- !u!114 &11482032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -343,7 +369,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: cc83a2bfdce427a4abc489696de5246e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000

@@ -4,13 +4,19 @@ using System.Collections;
 public class FlameBarController : MonoBehaviour {
 
     Animator animator;
-    TorchScript torch;
+    public TorchScript torch;
 	// Use this for initialization
 	void Start () 
     {
         animator = GetComponent<Animator>();
         torch = GameObject.FindGameObjectWithTag("Player").GetComponent<TorchScript>();
 	}
+
+    void OnEnable()
+    {
+        animator = GetComponent<Animator>();
+        torch = GameObject.FindGameObjectWithTag("Player").GetComponent<TorchScript>();
+    }
 	
 	// Update is called once per frame
 	void Update () 
