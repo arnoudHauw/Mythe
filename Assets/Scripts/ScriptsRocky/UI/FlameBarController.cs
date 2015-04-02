@@ -4,7 +4,7 @@ using System.Collections;
 public class FlameBarController : MonoBehaviour {
 
     Animator animator;
-    TorchScript torch;
+    public TorchScript torch;
 	// Use this for initialization
 	void Start () 
     {

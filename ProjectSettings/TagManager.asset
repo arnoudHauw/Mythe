@@ -14,6 +14,9 @@ TagManager:
   - DontDestroyScore
   - SpawnPoint
   - PersistentObject
+  - PlayerLight
+  - FlameBar
+  - JoyStick
   layers:
   - Default
   - TransparentFX
