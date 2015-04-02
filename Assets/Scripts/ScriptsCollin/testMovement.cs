@@ -9,7 +9,7 @@ public class testMovement : MonoBehaviour
     
     public Vector2 moveDirection;
     //  + (mainCamera.transform.rotation.z * slideMultiplier)
-    public GameObject mainCamera;
+    public Camera mainCamera;
     public GameObject Char;
     public AudioClip WalkClip;
     public AudioClip JumpClip;
@@ -17,6 +17,11 @@ public class testMovement : MonoBehaviour
 
     private const string ISWALKING = "IsWalking";
     private const string ISJUMPING = "IsJumping";
+
+    void Start()
+    {
+        mainCamera = Camera.main;
+    }
 
     void Update()
     {

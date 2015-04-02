@@ -13,6 +13,8 @@ public class CharacterSLide : MonoBehaviour
 
     private bool moving;
 
+    public GameObject[] Allchars;
+    
     // Use this for initialization
     void Start()
     {
@@ -65,47 +67,47 @@ public class CharacterSLide : MonoBehaviour
         }
     }
 
-    public int getSelectedChar()
+    public GameObject getSelectedChar()
     {
-        if(this.transform.position.x == -12)
+        if (this.transform.position.x == -12)
         {
-            return 1;
+            return null;
         }
         else if (this.transform.position.x == -9)
         {
-            return 2;
+            return Allchars[7];
         }
         else if (this.transform.position.x == -6)
         {
-            return 3;
+            return Allchars[6];
         }
         else if (this.transform.position.x == -3)
         {
-            return 4;
+            return Allchars[5];
         }
         else if (this.transform.position.x == 0)
         {
-            return 5;
+            return Allchars[4];
         }
         else if (this.transform.position.x == 3)
         {
-            return 6;
+            return Allchars[3];
         }
         else if (this.transform.position.x == 6)
         {
-            return 7;
+            return Allchars[2];
         }
         else if (this.transform.position.x == 9)
         {
-            return 8;
+            return Allchars[1];
         }
         else if (this.transform.position.x == 12)
         {
-            return 9;
+            return Allchars[0];
         }
         else
         {
-            return 666;
+            return null;
         }
         
         // Couldn't get that feckin' switch working.

@@ -983,6 +983,45 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1278779522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1278779524}
+  - 114: {fileID: 1278779523}
+  m_Layer: 0
+  m_Name: Playerspawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1278779523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1278779522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9181d6dbcaad1c4289d12276d116ba5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1278779524
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1278779522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.858794272, y: -.65411675, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
 --- !u!1 &1310387360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,6 +1145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 1
+  SpawnPoint: {fileID: 0}
 --- !u!114 &1533361523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1117,18 +1157,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9ea2dd17e2fc9e419a7fd8a5f534e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnDelay: 6
   spawn: {fileID: 1533361524}
   spawnPosition: {x: 0, y: 0, z: 0}
-  stoneBackgrounds:
-  - {fileID: 114828, guid: dd63ba16cb5ecd944b7b1234b0c96f61, type: 2}
-  - {fileID: 107802, guid: 37063b7b3a499c6408d26aa2ec4a9252, type: 2}
-  - {fileID: 117524, guid: cd0875718260a6f44a0e8340bd7acf6b, type: 2}
-  forestBackgrounds: []
   SnowBackgrounds:
   - {fileID: 133586, guid: 700a8eb7bffa8b74f9bf28c4831cf5f1, type: 2}
   - {fileID: 116400, guid: 1aed4b0b35ff6bf419e4e36de5ad97d1, type: 2}
   - {fileID: 166562, guid: 16ad7b8b9b373df4485dccda69caa61c, type: 2}
+  RockBackgrounds: []
+  templeBackgrounds: []
+  forestBackgrounds: []
   _backgroundType: 0
 --- !u!4 &1533361524
 Transform:

@@ -4,7 +4,7 @@ using System.Collections;
 public class SelectedCharacter : MonoBehaviour
 {
 
-    public int selChar;
+    public GameObject selChar;
 
 
     // Use this for initialization
